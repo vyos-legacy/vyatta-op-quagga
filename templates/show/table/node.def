@@ -1,0 +1,2 @@
+help: "Show routing table"
+run: vtysh -c "$*"

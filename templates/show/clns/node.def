@@ -1,0 +1,2 @@
+help: "Show CLNS routing information"
+run: vtysh -c "$*"

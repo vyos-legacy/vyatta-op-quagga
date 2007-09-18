@@ -1,0 +1,2 @@
+help: "Disable all debugging"
+run: vtysh -c "$*"

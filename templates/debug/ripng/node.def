@@ -1,0 +1,2 @@
+help: "Enable ripng protocol debugging"
+run: vtysh -c "$*"

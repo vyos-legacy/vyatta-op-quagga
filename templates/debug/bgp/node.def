@@ -1,0 +1,2 @@
+help: "Enable bgp protocol debugging"
+run: vtysh -c "$*"
