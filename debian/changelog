@@ -1,0 +1,5 @@
+vyatta-op-quagga (0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Tom Grennan <tgrennan@vyatta.com>  Mon, 17 Sep 2007 18:26:04 -0700

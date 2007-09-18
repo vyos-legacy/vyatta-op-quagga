@@ -1,0 +1,12 @@
+Source: vyatta-op-quagga
+Section: net
+Priority: extra
+Maintainer: Tom Grennan <tgrennan@vyatta.com>
+Build-Depends: debhelper (>= 5), autotools-dev
+Standards-Version: 3.7.2
+
+Package: vyatta-op-quagga
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Vyatta operational command for the Quagga route daemons
+ Bash command completions, help strings, and run definitions
