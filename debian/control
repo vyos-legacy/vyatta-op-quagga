@@ -1,5 +1,5 @@
 Source: vyatta-op-quagga
-Section: net
+Section: contrib/net
 Priority: extra
 Maintainer: Tom Grennan <tgrennan@vyatta.com>
 Build-Depends: debhelper (>= 5), autotools-dev

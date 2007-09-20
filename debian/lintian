@@ -1,0 +1,2 @@
+vyatta-op-quagga: file-in-unusual-dir
+vyatta-op-quagga: dir-or-file-in-opt
