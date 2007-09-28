@@ -1,0 +1,3 @@
+help: "Show IPv4 OSPF opaque-as database of given address for given advertised router"
+allowed: echo -n --
+run: vtysh -c "$*"

@@ -1,0 +1,2 @@
+help: "Show detailed IPv4 OSPF neighor information for given interface"
+run: vtysh -c "$*"

@@ -1,0 +1,3 @@
+help: "Show IPv4 OSPF nssa-external database information of given address"
+allowed: echo -n --
+run: vtysh -c "$*"

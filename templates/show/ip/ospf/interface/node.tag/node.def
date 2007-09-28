@@ -1,0 +1,6 @@
+help: "Show IPv4 OSPF information for given interface"
+allowed: local -a array ;
+	 array=( /sys/class/net/* ) ;
+	 echo  -n ${array[@]##*/}
+run: vtysh -c "$*"
+

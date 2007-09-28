@@ -1,0 +1,2 @@
+help: "Show IPv4 OSPF asbr-summary database"
+run: vtysh -c "$*"

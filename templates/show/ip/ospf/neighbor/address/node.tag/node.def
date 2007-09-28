@@ -1,0 +1,3 @@
+help: "Show IPv4 OSPF neighor information for given IP address"
+allowed: echo -n --
+run: vtysh -c "show ip ospf neighbor "
