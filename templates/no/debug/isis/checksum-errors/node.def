@@ -1,0 +1,2 @@
+help: "Disable ISIS checksum-errors debugging"
+run: vtysh -c "$*"

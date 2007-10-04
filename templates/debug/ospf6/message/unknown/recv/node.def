@@ -1,0 +1,2 @@
+help: "Enable OSPF6 recv unknown message debugging"
+run: vtysh -c "$*"

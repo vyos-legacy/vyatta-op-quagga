@@ -1,0 +1,2 @@
+help: "Show OSPF protocol debugging flags"
+run: vtysh -c "$*"

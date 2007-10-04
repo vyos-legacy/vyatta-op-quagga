@@ -1,0 +1,2 @@
+help: "Enable detailed OSPF send ls-request packet debugging"
+run: vtysh -c "$*"

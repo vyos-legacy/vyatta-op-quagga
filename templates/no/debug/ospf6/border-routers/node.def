@@ -1,0 +1,2 @@
+help: "Disable OSPF6 border-routers debugging"
+run: vtysh -c "$*"

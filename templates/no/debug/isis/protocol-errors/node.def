@@ -1,0 +1,2 @@
+help: "Disable ISIS protocol-errors debugging"
+run: vtysh -c "$*"

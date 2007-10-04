@@ -1,0 +1,2 @@
+help: "Disable ISIS route-events debugging"
+run: vtysh -c "$*"

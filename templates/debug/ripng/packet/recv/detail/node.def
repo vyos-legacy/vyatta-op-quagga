@@ -1,0 +1,2 @@
+help: "Enable detailed RIPNG recv packet debugging"
+run: vtysh -c "$*"

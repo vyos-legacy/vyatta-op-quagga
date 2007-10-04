@@ -1,0 +1,2 @@
+help: "Enable RIP send packet debugging"
+run: vtysh -c "$*"

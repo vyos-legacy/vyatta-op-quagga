@@ -1,2 +1,1 @@
-help: "Enable ospf6 protocol debugging"
-run: vtysh -c "$*"
+help: "Enable OSPF6 protocol debugging"

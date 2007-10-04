@@ -1,0 +1,2 @@
+help: "Disable detailed OSPF all packet debugging"
+run: vtysh -c "$*"

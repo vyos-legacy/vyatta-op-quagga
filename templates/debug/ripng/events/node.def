@@ -1,0 +1,2 @@
+help: "Enable RIPNG events debugging"
+run: vtysh -c "$*"

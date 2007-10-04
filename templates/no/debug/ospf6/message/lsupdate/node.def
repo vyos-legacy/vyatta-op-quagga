@@ -1,0 +1,2 @@
+help: "Disable OSPF6 lsupdate message debugging"
+run: vtysh -c "$*"

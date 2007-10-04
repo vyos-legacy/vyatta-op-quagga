@@ -1,0 +1,2 @@
+help: "Disable OSPF6 recv lsack message debugging"
+run: vtysh -c "$*"

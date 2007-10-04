@@ -1,2 +1,1 @@
-help: "Enable isis protocol debugging"
-run: vtysh -c "$*"
+help: "Enable ISIS protocol debugging"

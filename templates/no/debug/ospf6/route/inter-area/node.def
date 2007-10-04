@@ -1,0 +1,2 @@
+help: "Disable OSPF6 route inter-area debugging"
+run: vtysh -c "$*"

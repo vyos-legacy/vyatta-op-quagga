@@ -1,0 +1,2 @@
+help: "Enable OSPF6 send hello message debugging"
+run: vtysh -c "$*"

@@ -1,0 +1,2 @@
+help: "Enable OSPF dd packet debugging"
+run: vtysh -c "$*"

@@ -1,0 +1,2 @@
+help: "Disable OSPF6 send unknown message debugging"
+run: vtysh -c "$*"

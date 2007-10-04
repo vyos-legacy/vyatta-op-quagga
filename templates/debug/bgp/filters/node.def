@@ -1,0 +1,2 @@
+help: "Enable BGP filters debugging"
+run: vtysh -c "$*"

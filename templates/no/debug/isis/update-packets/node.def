@@ -1,0 +1,2 @@
+help: "Disable ISIS update-packets debugging"
+run: vtysh -c "$*"

@@ -1,0 +1,3 @@
+help: "Enable OSPF6 debugging for given lsa [XXXX/0xXXXX]"
+allowed: echo -n --
+run: vtysh -c "$*"
