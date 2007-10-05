@@ -1,0 +1,2 @@
+help: Show RIPNG protocol status
+run: vtysh -c "$*"

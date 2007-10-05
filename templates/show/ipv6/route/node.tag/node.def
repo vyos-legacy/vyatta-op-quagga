@@ -1,0 +1,3 @@
+help: Show IPv6 routes of given address or prefix
+allowed:
+run: vtysh -c "$*"

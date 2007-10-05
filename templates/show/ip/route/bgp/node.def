@@ -1,0 +1,2 @@
+help: Show IP BGP routes
+run: vtysh -c "$*"

@@ -1,0 +1,2 @@
+help: Show IP RIP routes
+run: vtysh -c "$*"

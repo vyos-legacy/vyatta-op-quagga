@@ -1,0 +1,3 @@
+help: Show IP routes of given address or prefix
+allowed:
+run: vtysh -c "$*"
