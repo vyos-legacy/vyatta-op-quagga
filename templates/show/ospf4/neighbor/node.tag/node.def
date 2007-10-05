@@ -1,3 +1,3 @@
-help: "Show IPv4 OSPF information for given neighbor"
+help: Show IPv4 OSPF information for given neighbor
 allowed: echo -n --
 run: vtysh -c "show ip ospf neighbor $4"

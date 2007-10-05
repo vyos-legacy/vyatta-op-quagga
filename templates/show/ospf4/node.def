@@ -1,2 +1,2 @@
-help: "Show IPv4 OSPF information"
+help: Show IPv4 OSPF information
 run: vtysh -c "show ip ospf"

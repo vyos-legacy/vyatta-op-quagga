@@ -1,2 +1,2 @@
-help: "Disable zebra protocol debugging"
+help: Disable zebra protocol debugging
 run: vtysh -c "$*"

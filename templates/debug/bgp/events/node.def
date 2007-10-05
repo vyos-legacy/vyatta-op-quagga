@@ -1,2 +1,2 @@
-help: "Enable BGP events debugging"
+help: Enable BGP events debugging
 run: vtysh -c "$*"

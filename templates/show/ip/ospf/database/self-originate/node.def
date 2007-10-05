@@ -1,2 +1,2 @@
-help: "Show IPv4 OSPF self-originate database"
+help: Show IPv4 OSPF self-originate database
 run: vtysh -c "$*"

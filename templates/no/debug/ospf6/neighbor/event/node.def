@@ -1,2 +1,2 @@
-help: "Disable OSPF6 neighbor event debugging"
+help: Disable OSPF6 neighbor event debugging
 run: vtysh -c "$*"

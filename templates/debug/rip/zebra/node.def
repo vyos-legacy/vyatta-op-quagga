@@ -1,2 +1,2 @@
-help: "Enable RIP zebra debugging"
+help: Enable RIP zebra debugging
 run: vtysh -c "$*"

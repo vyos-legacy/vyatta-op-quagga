@@ -1,2 +1,2 @@
-help: "Disable RIP protocol debugging"
+help: Disable RIP protocol debugging
 run: vtysh -c "$*"

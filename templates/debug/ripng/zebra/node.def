@@ -1,2 +1,2 @@
-help: "Enable RIPNG zebra debugging"
+help: Enable RIPNG zebra debugging
 run: vtysh -c "$*"

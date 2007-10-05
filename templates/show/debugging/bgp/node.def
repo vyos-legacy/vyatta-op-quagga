@@ -1,2 +1,2 @@
-help: "Show BGP protocol debugging flags"
+help: Show BGP protocol debugging flags
 run: vtysh -c "$*"

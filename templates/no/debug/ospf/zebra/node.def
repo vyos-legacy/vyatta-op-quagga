@@ -1,2 +1,2 @@
-help: "Disable OSPF zebra debugging"
+help: Disable OSPF zebra debugging
 run: vtysh -c "$*"

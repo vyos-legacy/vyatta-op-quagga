@@ -1,2 +1,2 @@
-help: "Disable RIP packet debugging"
+help: Disable RIP packet debugging
 run: vtysh -c "$*"

@@ -1,2 +1,2 @@
-help: "Show IPv4 OSPF max-age database"
+help: Show IPv4 OSPF max-age database
 run: vtysh -c "$*"

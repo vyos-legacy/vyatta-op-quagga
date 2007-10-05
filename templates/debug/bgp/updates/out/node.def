@@ -1,2 +1,2 @@
-help: "Enable BGP output updates debugging"
+help: Enable BGP output updates debugging
 run: vtysh -c "$*"

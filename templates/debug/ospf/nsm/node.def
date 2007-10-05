@@ -1,2 +1,2 @@
-help: "Enable OSPF nsm debugging"
+help: Enable OSPF nsm debugging
 run: vtysh -c "$*"

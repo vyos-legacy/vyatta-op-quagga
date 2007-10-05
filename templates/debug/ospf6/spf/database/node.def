@@ -1,2 +1,2 @@
-help: "Enable OSPF6 spf database debugging"
+help: Enable OSPF6 spf database debugging
 run: vtysh -c "$*"

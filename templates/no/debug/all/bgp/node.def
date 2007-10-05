@@ -1,2 +1,2 @@
-help: "Disable all BGP debugging"
+help: Disable all BGP debugging
 run: vtysh -c "$*"

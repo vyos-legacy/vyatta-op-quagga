@@ -1,2 +1,2 @@
-help: "Enable BGP fsm debugging"
+help: Enable BGP fsm debugging
 run: vtysh -c "$*"

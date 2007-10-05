@@ -1,2 +1,2 @@
-help: "Disable OSPF nsm debugging"
+help: Disable OSPF nsm debugging
 run: vtysh -c "$*"

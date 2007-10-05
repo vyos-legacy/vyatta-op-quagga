@@ -1,2 +1,2 @@
-help: "Enable ISIS local-updates debugging"
+help: Enable ISIS local-updates debugging
 run: vtysh -c "$*"

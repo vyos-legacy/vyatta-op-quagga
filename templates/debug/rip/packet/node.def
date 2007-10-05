@@ -1,2 +1,2 @@
-help: "Enable RIP packet debugging"
+help: Enable RIP packet debugging
 run: vtysh -c "$*"

@@ -1,2 +1,2 @@
-help: "Disable OSPF nsm timers debugging"
+help: Disable OSPF nsm timers debugging
 run: vtysh -c "$*"

@@ -1,2 +1,2 @@
-help: "Show IPv4 OSPF nssa database"
+help: Show IPv4 OSPF nssa database
 run: vtysh -c "show ip ospf database nssa-external"

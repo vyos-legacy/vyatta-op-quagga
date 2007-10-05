@@ -1,2 +1,2 @@
-help: "Show IPv4 OSPF border-routers information"
+help: Show IPv4 OSPF border-routers information
 run: vtysh -c "$*"

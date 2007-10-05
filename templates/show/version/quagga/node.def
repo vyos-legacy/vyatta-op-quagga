@@ -1,2 +1,2 @@
-help: "Show Quagga version information"
+help: Show Quagga version information
 run: vtysh -c "show version"

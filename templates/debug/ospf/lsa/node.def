@@ -1,2 +1,2 @@
-help: "Enable OSPF lsa debugging"
+help: Enable OSPF lsa debugging
 run: vtysh -c "$*"

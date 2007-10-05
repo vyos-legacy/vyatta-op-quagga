@@ -1,2 +1,2 @@
-help: "Enable OSPF6 abr debugging"
+help: Enable OSPF6 abr debugging
 run: vtysh -c "$*"

@@ -1,2 +1,2 @@
-help: "Disable zebra kernel debugging"
+help: Disable zebra kernel debugging
 run: vtysh -c "$*"

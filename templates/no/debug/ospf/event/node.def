@@ -1,2 +1,2 @@
-help: "Disable OSPF event debugging"
+help: Disable OSPF event debugging
 run: vtysh -c "$*"

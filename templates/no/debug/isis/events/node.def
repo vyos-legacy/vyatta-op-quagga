@@ -1,2 +1,2 @@
-help: "Disable ISIS events debugging"
+help: Disable ISIS events debugging
 run: vtysh -c "$*"

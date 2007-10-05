@@ -1,2 +1,2 @@
-help: "Disable OSPF6 flooding debugging"
+help: Disable OSPF6 flooding debugging
 run: vtysh -c "$*"

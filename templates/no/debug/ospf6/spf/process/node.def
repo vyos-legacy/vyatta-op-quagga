@@ -1,2 +1,2 @@
-help: "Disable OSPF6 spf process debugging"
+help: Disable OSPF6 spf process debugging
 run: vtysh -c "$*"

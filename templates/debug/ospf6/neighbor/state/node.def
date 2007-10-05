@@ -1,2 +1,2 @@
-help: "Enable OSPF6 neighbor state debugging"
+help: Enable OSPF6 neighbor state debugging
 run: vtysh -c "$*"

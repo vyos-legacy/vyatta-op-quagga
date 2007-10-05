@@ -1,2 +1,2 @@
-help: "Enable ISIS spf-statistics debugging"
+help: Enable ISIS spf-statistics debugging
 run: vtysh -c "$*"

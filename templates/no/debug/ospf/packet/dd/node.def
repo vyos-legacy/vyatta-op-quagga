@@ -1,2 +1,2 @@
-help: "Disable OSPF dd packet debugging"
+help: Disable OSPF dd packet debugging
 run: vtysh -c "$*"

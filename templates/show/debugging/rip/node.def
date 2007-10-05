@@ -1,2 +1,2 @@
-help: "Show RIP protocol debugging flags"
+help: Show RIP protocol debugging flags
 run: vtysh -c "$*"

@@ -1,2 +1,2 @@
-help: "Enable detailed OSPF send dd packet debugging"
+help: Enable detailed OSPF send dd packet debugging
 run: vtysh -c "$*"

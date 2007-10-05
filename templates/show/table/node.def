@@ -1,2 +1,2 @@
-help: "Show routing table"
+help: Show routing table
 run: vtysh -c "$*"

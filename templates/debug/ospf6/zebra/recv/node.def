@@ -1,2 +1,2 @@
-help: "Enable OSPF6 recv zebra debugging"
+help: Enable OSPF6 recv zebra debugging
 run: vtysh -c "$*"

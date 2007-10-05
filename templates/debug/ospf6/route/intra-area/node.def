@@ -1,2 +1,2 @@
-help: "Enable OSPF6 route intra-area debugging"
+help: Enable OSPF6 route intra-area debugging
 run: vtysh -c "$*"

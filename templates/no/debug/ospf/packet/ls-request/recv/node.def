@@ -1,2 +1,2 @@
-help: "Disable OSPF recv ls-request packet debugging"
+help: Disable OSPF recv ls-request packet debugging
 run: vtysh -c "$*"

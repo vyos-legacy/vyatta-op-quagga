@@ -1,2 +1,2 @@
-help: "Enable ISIS checksum-errors debugging"
+help: Enable ISIS checksum-errors debugging
 run: vtysh -c "$*"

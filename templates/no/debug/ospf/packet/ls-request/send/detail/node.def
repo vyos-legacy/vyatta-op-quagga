@@ -1,2 +1,2 @@
-help: "Disable detailed OSPF send ls-request packet debugging"
+help: Disable detailed OSPF send ls-request packet debugging
 run: vtysh -c "$*"

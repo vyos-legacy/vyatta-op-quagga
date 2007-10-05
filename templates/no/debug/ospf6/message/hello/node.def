@@ -1,2 +1,2 @@
-help: "Disable OSPF6 hello message debugging"
+help: Disable OSPF6 hello message debugging
 run: vtysh -c "$*"

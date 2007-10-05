@@ -1,2 +1,2 @@
-help: "Disable OSPF ism status debugging"
+help: Disable OSPF ism status debugging
 run: vtysh -c "$*"

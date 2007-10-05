@@ -1,2 +1,2 @@
-help: "Enable OSPF event debugging"
+help: Enable OSPF event debugging
 run: vtysh -c "$*"

@@ -1,2 +1,2 @@
-help: "Enable OSPF6 recv dbdesc message debugging"
+help: Enable OSPF6 recv dbdesc message debugging
 run: vtysh -c "$*"

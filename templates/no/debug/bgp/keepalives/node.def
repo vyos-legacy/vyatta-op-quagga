@@ -1,2 +1,2 @@
-help: "Disable BGP keepalives debugging"
+help: Disable BGP keepalives debugging
 run: vtysh -c "$*"

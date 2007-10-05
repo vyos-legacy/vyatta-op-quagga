@@ -1,2 +1,2 @@
-help: "Show information for zebra route daemon"
+help: Show information for zebra route daemon
 run: vtysh -c "$*"

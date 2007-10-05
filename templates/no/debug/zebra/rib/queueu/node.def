@@ -1,2 +1,2 @@
-help: "Disable zebra rib queueu debugging"
+help: Disable zebra rib queueu debugging
 run: vtysh -c "$*"

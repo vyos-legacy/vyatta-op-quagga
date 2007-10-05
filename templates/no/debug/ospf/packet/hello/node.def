@@ -1,2 +1,2 @@
-help: "Disable OSPF hello packet debugging"
+help: Disable OSPF hello packet debugging
 run: vtysh -c "$*"

@@ -1,2 +1,2 @@
-help: "Disable OSPF6 route table debugging"
+help: Disable OSPF6 route table debugging
 run: vtysh -c "$*"
