@@ -1,0 +1,2 @@
+help: Show CLNS neighbor routers
+run: vtysh -c "$*"

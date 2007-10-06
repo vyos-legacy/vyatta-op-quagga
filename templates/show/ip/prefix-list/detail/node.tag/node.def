@@ -1,0 +1,2 @@
+help: Show detail of named IP prefix-list
+run: vtysh -c "$*"

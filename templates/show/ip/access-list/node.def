@@ -1,0 +1,2 @@
+help: Show all IP access-lists
+run: vtysh -c "$*"

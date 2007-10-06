@@ -1,0 +1,2 @@
+help: Show detailed information for ISIS neighbor routers
+run: vtysh -c "$*"

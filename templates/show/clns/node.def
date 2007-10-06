@@ -1,2 +1,1 @@
-help: Show CLNS routing information
-run: vtysh -c "$*"
+help: Show CLNS protocol information

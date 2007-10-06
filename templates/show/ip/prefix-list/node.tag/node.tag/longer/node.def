@@ -1,0 +1,2 @@
+help: Show longer match of select prefix from named IP prefix-list
+run: vtysh -c "$*"

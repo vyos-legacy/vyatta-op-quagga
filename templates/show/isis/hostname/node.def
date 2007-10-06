@@ -1,0 +1,2 @@
+help: Show ISIS hostname
+run: vtysh -c "$*"

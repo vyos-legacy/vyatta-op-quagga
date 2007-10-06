@@ -1,0 +1,2 @@
+help: Show ISIS level-2 topology
+run: vtysh -c "$*"

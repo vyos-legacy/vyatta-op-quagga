@@ -1,0 +1,2 @@
+help: Show named IP community-list
+run: vtysh -c "$*"
