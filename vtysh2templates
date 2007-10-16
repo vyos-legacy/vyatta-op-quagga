@@ -1,0 +1,109 @@
+#!/usr/bin/perl
+
+# create templates from output of "vtysh -c list"
+
+sub mk_node_def {
+    local ($p, $help) = @_;
+
+    if ( ! -d $p ) {
+	mkdir $p
+	    or die "Can\'t create $p: $!";
+    }
+    if ( ! -r "$p/node.def" ) {
+	open(NODE_DEF, ">", "$p/node.def")
+	    or die "Can\'t create $p/node.def: $!";
+	print NODE_DEF "help: $help\n";
+	close NODE_DEF;
+    }
+}
+
+sub add_run {				# add run field to given node.def
+    local ($node_def) = @_;
+    local $has_run=0; 
+
+    if ( -r $node_def ) {
+	open(IN, "<", $node_def) 
+	    or die "Can\'t read $node_def: $!";
+	while (<IN>) {
+	    $has_run=1 if (/^run:/);
+	}
+	close IN;
+    }
+    if ( ! $has_run ) {
+	open(NODE_DEF, ">>", "$p/node.def")
+	    or die "Can\'t append run command to $p/node.def: $!";
+	print NODE_DEF 'run: vtysh -c "$*"\n';
+	close NODE_DEF;
+    }
+}
+
+sub recursive_process {			# path, help, arg ...
+    local $p = shift;
+    local $help = shift;
+
+    while (@_ > 0) {
+	local $a = shift;
+	if ( $a =~ /^\(/ ) {
+	    $a =~ s/^\(//;
+	    $a =~ s/\)$//;
+	    for $aa ( split /\|/, $a ) {
+		local @args;
+		push @args, $aa, @_;
+		recursive_process($p,$help,@args);
+	    }
+	    return;
+	} else {
+	    if ( $a eq "detail" ) {
+		$help =~ s/ / detailed /;
+	    } elsif ( $a =~ /(bgp|ospf6|ospf|ripng|rip|isis)/ ) {
+		local $protocol = uc $1;
+		$help =~ s/PROTOCOL/$protocol/;
+	    }
+	    if ( $a =~ /[A-Z]/ ) {
+		$p .= "/node.tag";
+		if ( $help =~ /for given/ ) {
+		    $help .= ", ";
+		} else {
+		    $help .= " for given ";
+		}
+		if ( $a =~ /(A.B.C.D|X:.*)/ ) {
+		    $help .= "address";
+		} elsif ( $a =~ /LINE/ ) {
+		    $help .= "LINE";
+		} elsif  ( $a =~ /WORD/ ) {
+		    $help .= "WORD";
+		} elsif  ( $a =~ /AA:NN/ ) {
+		    $help .= "extended attributes";
+		} else {
+		    $help .= $a;
+		}
+	    } else {
+		$p .= "/$a";
+	    }
+	    mk_node_def($p, $help);
+	}
+    }
+    add_run("$p/node.def");
+}
+
+while (<>) {
+    local $help;
+    chop;
+    s/^\s+//;
+    if ( s/^(show)// ) {
+	$help = "Show PROTOCOL information";
+    } elsif ( s/^debug// ) {
+	$help = "Enable PROTOCOL debugging";
+    } elsif ( s/^(undebug|no debug)// ) {
+	$help = "Disable PROTOCOL debugging";
+    } else {
+	s/(\w+)\s//;
+	$help = $1;
+    }
+    recursive_process("templates/$1", $help, split);
+}
+
+exit 0;
+
+
+

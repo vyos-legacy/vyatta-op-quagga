@@ -1,3 +1,4 @@
+noinst_SCRIPTS	 = vtysh2templates
 opdir		 = $(datadir)/vyatta-op/templates
 
 cpiop = find  . ! -regex '\(.*~\|.*\.bak\|.*\.swp\|.*\#.*\#\)' -print0 | \
