@@ -1,0 +1,2 @@
+help: Clear PREFIX-LIST statistics or status for given WORD
+run: vtysh -c "$*"
