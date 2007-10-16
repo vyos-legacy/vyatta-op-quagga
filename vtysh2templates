@@ -32,7 +32,7 @@ sub add_run {				# add run field to given node.def
     if ( ! $has_run ) {
 	open(NODE_DEF, ">>", "$p/node.def")
 	    or die "Can\'t append run command to $p/node.def: $!";
-	print NODE_DEF 'run: vtysh -c "$*"\n';
+	print NODE_DEF 'run: vtysh -c "$*"', "\n";
 	close NODE_DEF;
     }
 }
