@@ -1,0 +1,2 @@
+help: Show BGP information for given WORD, address, address
+run: vtysh -c "$*"\n
