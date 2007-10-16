@@ -1,0 +1,4 @@
+
+help: Show BGP routes
+run: vtysh -c "show ip route bgp";
+     vtysh -c "show ipv6 route bgp"
