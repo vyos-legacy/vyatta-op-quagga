@@ -55,7 +55,7 @@ sub recursive_process {			# path, help, arg ...
 	} else {
 	    if ( $a eq "detail" ) {
 		$help =~ s/ / detailed /;
-	    } elsif ( $a =~ /(bgp|ospf6|ospf|ripng|rip|isis)/ ) {
+	    } elsif ( $a =~ /(bgp|ospf6|ospf|ripng|rip|isis|prefix-list)/ ) {
 		local $protocol = uc $1;
 		$help =~ s/PROTOCOL/$protocol/;
 	    }
@@ -66,7 +66,9 @@ sub recursive_process {			# path, help, arg ...
 		} else {
 		    $help .= " for given ";
 		}
-		if ( $a =~ /(A.B.C.D|X:.*)/ ) {
+		if ( $a =~ /(A.B.C.D\/M|X:.*\/M)/ ) {
+		    $help .= "network";
+		} elsif ( $a =~ /(A.B.C.D|X:.*)/ ) {
 		    $help .= "address";
 		} elsif ( $a =~ /LINE/ ) {
 		    $help .= "LINE";
@@ -77,6 +79,12 @@ sub recursive_process {			# path, help, arg ...
 		} else {
 		    $help .= $a;
 		}
+	    } elsif ( $a =~ /<1-65535>/ ) {
+		$p .= "/node.tag";
+		$help .= "number";
+	    } elsif ( $a eq '*' ) {
+		$p .= "/node.tag";
+		$help .= "wild card";
 	    } else {
 		$p .= "/$a";
 	    }
@@ -90,14 +98,16 @@ while (<>) {
     local $help;
     chop;
     s/^\s+//;
-    if ( s/^(show)// ) {
+    if ( s/^(show)\s+// ) {
 	$help = "Show PROTOCOL information";
-    } elsif ( s/^debug// ) {
+    } elsif ( s/^(debug)\s+// ) {
 	$help = "Enable PROTOCOL debugging";
-    } elsif ( s/^(undebug|no debug)// ) {
+    } elsif ( s/^(undebug|no debug)\s+// ) {
 	$help = "Disable PROTOCOL debugging";
+    } elsif ( s/^(clear)\s+// ) {
+	$help = "Clear PROTOCOL statistics or status";
     } else {
-	s/(\w+)\s//;
+	s/(\w+)\s+//;
 	$help = $1;
     }
     recursive_process("templates/$1", $help, split);
