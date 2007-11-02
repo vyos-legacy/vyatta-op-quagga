@@ -1,3 +1,0 @@
-help: Show currently running configuration
-run: vtysh -c "$*" ;
-     echo FIXME\! merge Vyatta system config
