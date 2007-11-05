@@ -1,2 +1,2 @@
-help: Disable OSPF lsa flooding debugging
+help: Disable OSPF LSA flooding debugging
 run: vtysh -c "$*"

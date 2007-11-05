@@ -1,2 +1,2 @@
-help: Disable OSPF6 asbr debugging
+help: Disable OSPF6 ASBR debugging
 run: vtysh -c "$*"

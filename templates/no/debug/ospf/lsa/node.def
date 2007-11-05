@@ -1,2 +1,2 @@
-help: Disable OSPF lsa debugging
+help: Disable OSPF LSA debugging
 run: vtysh -c "$*"

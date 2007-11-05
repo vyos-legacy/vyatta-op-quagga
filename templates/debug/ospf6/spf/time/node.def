@@ -1,2 +1,2 @@
-help: Enable OSPF6 spf time debugging
+help: Enable OSPF6 SPF time debugging
 run: vtysh -c "$*"

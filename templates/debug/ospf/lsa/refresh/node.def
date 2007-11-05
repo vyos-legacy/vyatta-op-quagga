@@ -1,2 +1,2 @@
-help: Enable OSPF lsa refresh debugging
+help: Enable OSPF LSA refresh debugging
 run: vtysh -c "$*"

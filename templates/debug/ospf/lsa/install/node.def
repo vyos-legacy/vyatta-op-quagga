@@ -1,2 +1,2 @@
-help: Enable OSPF lsa install debugging
+help: Enable OSPF LSA install debugging
 run: vtysh -c "$*"

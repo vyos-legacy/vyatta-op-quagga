@@ -1,2 +1,2 @@
-help: Show IPv4 OSPF asbrsummary database
+help: Show IPv4 OSPF ASBR summary database
 run: vtysh -c "show ip ospf database asbr-summary"

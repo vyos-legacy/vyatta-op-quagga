@@ -1,2 +1,2 @@
-help: Disable ISIS spf-triggers debugging
+help: Disable ISIS SPF triggers debugging
 run: vtysh -c "$*"
