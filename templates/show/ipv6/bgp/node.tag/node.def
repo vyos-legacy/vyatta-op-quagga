@@ -1,2 +1,3 @@
-help: Show BGP information for given address
+help: Show BGP information for given address or prefix
+allowed: echo -n '<X:X::X:X>' '<X:X::X:X/M>'
 run: vtysh -c "$*"

@@ -1,2 +1,3 @@
 help: Show named IP prefix-list
+allowed: echo -n '<WORD>'
 run: vtysh -c "$*"

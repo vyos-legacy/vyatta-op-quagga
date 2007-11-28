@@ -1,2 +1,3 @@
 help: Clear PREFIX-LIST statistics or status for given WORD, network
+allowed: echo -n '<A.B.C.D/M>'
 run: vtysh -c "$*"

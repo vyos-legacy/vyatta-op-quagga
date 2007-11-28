@@ -1,2 +1,3 @@
 help: Show BGP information for given WORD, address
+allowed: echo -n '<X:X::X:X>' '<X:X::X:X/M>'
 run: vtysh -c "$*"
