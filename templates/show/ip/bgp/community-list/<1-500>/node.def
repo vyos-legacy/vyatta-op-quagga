@@ -1,3 +1,0 @@
-help: Show BGP routes matching specified community list number
-allowed: echo -n '<1-500>'
-run: vtysh -c "$*"
