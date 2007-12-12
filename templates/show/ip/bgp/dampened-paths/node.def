@@ -1,2 +1,2 @@
-help: Show BGP information
+help: Show dampened BGP paths
 run: vtysh -c "$*"
