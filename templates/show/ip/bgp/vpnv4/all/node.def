@@ -1,2 +1,2 @@
-help: Show BGP information
+help: Show VPNv4 information for all NLRIs
 run: vtysh -c "$*"

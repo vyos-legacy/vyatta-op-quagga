@@ -1,2 +1,2 @@
-help: Show BGP information
+help: Show flap statistics for routes without natural netmasks
 run: vtysh -c "$*"

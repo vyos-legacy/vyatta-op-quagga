@@ -1,1 +1,1 @@
-help: Show BGP information
+help: Show VPNv4 NLRI information for specified route distinguisher

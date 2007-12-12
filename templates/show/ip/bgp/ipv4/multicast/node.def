@@ -1,2 +1,2 @@
-help: Show BGP information
+help: Show BGP IPv4 multicast information
 run: vtysh -c "$*"
