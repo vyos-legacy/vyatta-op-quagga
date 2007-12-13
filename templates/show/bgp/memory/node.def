@@ -1,2 +1,2 @@
-help: Show BGP information
+help: Show BGP memory usage
 run: vtysh -c "$*"

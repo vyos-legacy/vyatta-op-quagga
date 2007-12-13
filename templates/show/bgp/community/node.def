@@ -1,2 +1,2 @@
-help: Show BGP information
+help: Show BGP routes matching the specified communities
 run: vtysh -c "$*"

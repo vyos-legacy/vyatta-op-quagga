@@ -1,1 +1,1 @@
-help: Show BGP information
+help: Show BGP routes matching the specified community list
