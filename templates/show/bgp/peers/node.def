@@ -1,2 +1,0 @@
-help: Show BGP peer information
-run: vtysh -c "show bgp neighbors"
