@@ -1,2 +1,2 @@
-help: Show BGP information for given extended attributes, extended attributes, extended attributes, extended attributes
+help: Show BGP IPv4 unicast routes which exactly match the specified communities
 run: vtysh -c "$*"
