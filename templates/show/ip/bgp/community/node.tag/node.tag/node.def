@@ -1,2 +1,3 @@
-help: Show BGP information for given extended attributes, extended attributes
+help: Show BGP routes matching the specified communities
+allowed: echo -n '<AA:NN> local-AS no-advertise no-export'
 run: vtysh -c "$*"
