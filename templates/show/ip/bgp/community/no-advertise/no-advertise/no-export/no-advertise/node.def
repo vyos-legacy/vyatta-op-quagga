@@ -1,2 +1,0 @@
-help: Show BGP information
-run: vtysh -c "$*"
