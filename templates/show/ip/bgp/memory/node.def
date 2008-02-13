@@ -1,0 +1,2 @@
+help: Show BGP memory usage
+run: vtysh -c "show bgp memory"
