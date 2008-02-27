@@ -1,2 +1,1 @@
 help: Disable RIP protocol debugging
-run: vtysh -c "$*"
