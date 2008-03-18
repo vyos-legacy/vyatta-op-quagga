@@ -1,2 +1,2 @@
 help: Show longer prefixes of routes for given address or prefix
-run: vtysh -c "$*"
+run: if /opt/vyatta/sbin/vyatta-validate-type.pl -q ipv4net $4; then vtysh -c "$*"; else echo $4 is not a valid ipv4net address. Please specify a valid ipv4net address ; fi

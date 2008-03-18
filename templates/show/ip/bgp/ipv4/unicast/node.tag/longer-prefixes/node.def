@@ -1,2 +1,3 @@
 help: Show BGP information for given address
-run: vtysh -c "$*"
+run: if /opt/vyatta/sbin/vyatta-validate-type.pl -q ipv4net $6; then vtysh -c "$*"; else echo $6 is not a valid ipv4net address. Please specify a valid ipv4net address ; fi
+
