@@ -7,6 +7,8 @@ Standards-Version: 3.7.2
 
 Package: vyatta-op-quagga
 Architecture: all
-Depends: vyatta-op, vyatta-quagga | quagga
+Depends: vyatta-op,
+ vyatta-bash,
+ vyatta-quagga | quagga
 Description: Vyatta operational command for the Quagga route daemons
  Bash command completions, help strings, and run definitions
