@@ -1,2 +1,2 @@
 help: Show BGP routes without natural netmasks
-run: vtysh -c "$*"
+run: LESSOPEN="|${_vyatta_vtysh} -c \"$*\"" less ${_vyatta_less_options} --prompt=".${*/show /}" -f -- /dev/null

@@ -1,3 +1,3 @@
 help: Show named route-map information
 allowed: echo -n '<WORD>'
-run: vtysh -c "$*"
+run: LESSOPEN="|${_vyatta_vtysh} -c \"$*\"" less ${_vyatta_less_options} --prompt=".${*/show /}" -f -- /dev/null
