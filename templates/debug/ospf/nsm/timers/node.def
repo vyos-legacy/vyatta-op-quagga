@@ -1,2 +1,2 @@
-help: Enable OSPF nsm events debugging
+help: Enable OSPF nsm timers debugging
 run: vtysh -c "$*"

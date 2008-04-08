@@ -1,2 +1,2 @@
-help: Clear PREFIX-LIST statistics or status
+help: Clear prefix-list statistics or status
 run: vtysh -c "$*"

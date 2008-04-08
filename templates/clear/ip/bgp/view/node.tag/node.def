@@ -1,2 +1,2 @@
-help: Clear BGP statistics or status for given WORD
+help: Clear BGP statistics or status for given word
 allowed: echo -n '<WORD>'

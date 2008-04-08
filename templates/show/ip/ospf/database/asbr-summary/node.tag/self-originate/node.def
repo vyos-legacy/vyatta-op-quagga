@@ -1,2 +1,2 @@
-help: Show self-originate IPv4 OSPF ASBR summary database
+help: Show summary of self-originate IPv4 OSPF ASBR database
 run: LESSOPEN="|${_vyatta_vtysh} -c \"$*\"" less ${_vyatta_less_options} --prompt=".${*/show /}" -f -- /dev/null

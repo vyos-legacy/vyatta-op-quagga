@@ -1,2 +1,2 @@
-help: Show BGP information for given LINE
+help: Show BGP information for specified line
 run: LESSOPEN="|${_vyatta_vtysh} -c \"$*\"" less ${_vyatta_less_options} --prompt=".${*/show /}" -f -- /dev/null

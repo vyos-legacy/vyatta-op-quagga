@@ -1,2 +1,2 @@
-help: Show RIP protocol information
+help: Show Routing Information Protocol (RIP) information
 run: LESSOPEN="|${_vyatta_vtysh} -c \"$*\"" less ${_vyatta_less_options} --prompt=".${*/show /}" -f -- /dev/null

@@ -1,2 +1,2 @@
-help: Show BGP protocol debugging flags
+help: Show Border Gateway Protocol (BGP) debugging flags
 run: LESSOPEN="|${_vyatta_vtysh} -c \"$*\"" less ${_vyatta_less_options} --prompt=".${*/show /}" -f -- /dev/null

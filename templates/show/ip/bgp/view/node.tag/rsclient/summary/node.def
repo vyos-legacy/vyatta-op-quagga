@@ -1,2 +1,2 @@
-help: Show BGP information for given WORD
+help: Show summary of BGP information for specified word
 run: LESSOPEN="|${_vyatta_vtysh} -c \"$*\"" less ${_vyatta_less_options} --prompt=".${*/show /}" -f -- /dev/null

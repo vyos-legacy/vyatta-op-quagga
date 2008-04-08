@@ -1,2 +1,2 @@
-help: Disable OSPF LSA refresh debugging
+help: Disable OSPF lsa refresh debugging
 run: vtysh -c "$*"

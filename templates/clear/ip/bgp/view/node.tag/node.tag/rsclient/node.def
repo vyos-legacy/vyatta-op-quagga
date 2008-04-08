@@ -1,2 +1,2 @@
-help: Clear BGP statistics or status for given WORD, address
+help: Clear BGP statistics or status for given word|IP address
 run: vtysh -c "$*"
