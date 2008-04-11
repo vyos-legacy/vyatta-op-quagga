@@ -1,2 +1,2 @@
-help: Disable specified BGP protocol debugging
+help: Disable Border Gateway Protocol (BGP) debugging
 run: vtysh -c "$*"
