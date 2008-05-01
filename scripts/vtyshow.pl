@@ -26,6 +26,8 @@
 use strict;
 use warnings;
 
+($ARGV[0] eq 'show' ) or die "must be a show command\n";
+
 exec '/usr/bin/vyatta-vtysh', '-c', join(' ', @ARGV);
 die "Could not exec vtysh";
 
