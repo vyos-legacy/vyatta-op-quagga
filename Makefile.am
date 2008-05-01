@@ -1,5 +1,6 @@
 noinst_SCRIPTS	 = vtysh2templates
 opdir		 = $(datadir)/vyatta-op/templates
+bin_SCRIPTS	 = scripts/vtyshow.pl
 
 cpiop = find  . ! -regex '\(.*~\|.*\.bak\|.*\.swp\|.*\#.*\#\)' -print0 | \
 	cpio -0pd

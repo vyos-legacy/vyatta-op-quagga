@@ -2,5 +2,5 @@ help: Show IPv4 OSPF information for specified interface
 allowed: local -a array ;
 	 array=( /sys/class/net/* ) ;
 	 echo  -n ${array[@]##*/}
-run: LESSOPEN="|${_vyatta_vtysh} -c \"$*\"" less ${_vyatta_less_options} --prompt=".${*/show /}" -f -- /dev/null
+run: ${vyatta_bindir}/vtyshow.pl $*
 

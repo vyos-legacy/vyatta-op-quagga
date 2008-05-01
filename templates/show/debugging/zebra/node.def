@@ -1,2 +1,2 @@
 help: Show zebra debugging flags
-run: LESSOPEN="|${_vyatta_vtysh} -c \"$*\"" less ${_vyatta_less_options} --prompt=".${*/show /}" -f -- /dev/null
+run: ${vyatta_bindir}/vtyshow.pl $*
