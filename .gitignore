@@ -10,8 +10,8 @@
 /configure
 /debian/files
 /debian/vyatta-op-quagga
+/debian/vyatta-op-quagga.debhelper.log
 /INSTALL
 /Makefile.in
 /Makefile
 /VERSION
-
