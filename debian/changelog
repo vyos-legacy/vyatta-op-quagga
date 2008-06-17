@@ -1,3 +1,33 @@
+vyatta-op-quagga (0.10) unstable; urgency=low
+
+	  3.1.0
+  [ Mark O'Brien ]
+
+
+  [ Stig Thormodsrud ]
+  * Add missing "debug zebra rib queue" node.
+  * Fix 3279: no debug zebra rib queueu - should be "queue"
+
+  [ rbalocca ]
+  * Ignore derived files
+  * Convert to our method of changelog creation
+
+  [ Stephen Hemminger ]
+  * limit vtyshow to only show commands
+  * Use wrapper for all show commands
+
+  [ Mohit Mehta ]
+  * Fix Bug 3069 Help strings should be standardized
+  * Fix Bug 3069 Help strings should be standardized
+  * Fix Bug 3069 Help strings should be standardized
+
+  [ Tom Grennan ]
+  * use LESSOPEN pipe with show commands
+
+  [ Mark O'Brien ]
+
+ -- Mark O'Brien <mobrien@firebolt.vyatta.com>  Tue, 17 Jun 2008 09:27:09 -0700
+
 vyatta-op-quagga (0.9) unstable; urgency=low
 
   3.0.5
