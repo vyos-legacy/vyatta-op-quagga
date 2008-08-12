@@ -1,3 +1,3 @@
 help: Show BGP routes
-run: vtysh -c "show ip route bgp";
-     vtysh -c "show ipv6 route bgp"
+run: vyatta-vtysh -c "show ip route bgp";
+     vyatta-vtysh -c "show ipv6 route bgp"

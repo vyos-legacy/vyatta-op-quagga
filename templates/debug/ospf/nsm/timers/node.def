@@ -1,2 +1,2 @@
 help: Enable OSPF nsm timers debugging
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

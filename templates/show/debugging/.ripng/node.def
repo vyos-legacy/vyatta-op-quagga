@@ -1,2 +1,2 @@
 help: Show RIPNG protocol debugging flags
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

@@ -1,2 +1,2 @@
 help:  Show BGP routes exactly matching specified community list
-run: ${vyatta_bindir}/vtyshow.pl $*
+run: ${vyatta_bindir}/vyatta-vtyshow.pl $*

@@ -1,2 +1,2 @@
 help: Show ISIS hostname
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

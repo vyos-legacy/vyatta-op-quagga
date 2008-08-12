@@ -1,2 +1,2 @@
 help: Show IP ISIS routes
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

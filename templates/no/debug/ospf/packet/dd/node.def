@@ -1,2 +1,2 @@
 help: Disable OSPF dd packet debugging
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

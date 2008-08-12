@@ -1,2 +1,2 @@
 help: Show longer prefixes of routes for given address or prefix
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

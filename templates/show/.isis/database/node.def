@@ -1,2 +1,2 @@
 help: Show ISIS database
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

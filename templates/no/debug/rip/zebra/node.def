@@ -1,2 +1,2 @@
 help: Disable RIP zebra debugging
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

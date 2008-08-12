@@ -1,2 +1,2 @@
 help: Show Border Gateway Protocol (BGP) information
-run: ${vyatta_bindir}/vtyshow.pl $*
+run: ${vyatta_bindir}/vyatta-vtyshow.pl $*

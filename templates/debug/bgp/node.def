@@ -1,2 +1,2 @@
 help: Enable Border Gateway Protocol (BGP) debugging
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

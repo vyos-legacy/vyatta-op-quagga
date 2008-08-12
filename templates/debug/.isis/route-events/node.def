@@ -1,2 +1,2 @@
 help: Enable ISIS route-events debugging
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

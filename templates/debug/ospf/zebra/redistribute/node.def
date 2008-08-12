@@ -1,2 +1,2 @@
 help: Enable OSPF zebra redistribute debugging
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

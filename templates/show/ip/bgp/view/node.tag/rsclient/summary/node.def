@@ -1,2 +1,2 @@
 help: Show summary of BGP information for specified word
-run: ${vyatta_bindir}/vtyshow.pl $*
+run: ${vyatta_bindir}/vyatta-vtyshow.pl $*

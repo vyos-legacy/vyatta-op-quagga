@@ -1,2 +1,2 @@
 help: Enable ISIS protocol-errors debugging
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

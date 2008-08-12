@@ -1,2 +1,2 @@
 help: Show IPv4 OSPF NSSA database
-run: vtysh -c "show ip ospf database nssa-external"
+run: vyatta-vtysh -c "show ip ospf database nssa-external"

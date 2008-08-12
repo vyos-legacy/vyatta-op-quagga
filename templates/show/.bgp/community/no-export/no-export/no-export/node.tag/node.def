@@ -1,2 +1,2 @@
 help: Show BGP information for given extended attributes
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

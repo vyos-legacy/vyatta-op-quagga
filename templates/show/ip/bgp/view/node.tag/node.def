@@ -1,3 +1,3 @@
 help: Show BGP information for specified word
 allowed: echo -n '<WORD>'
-run: ${vyatta_bindir}/vtyshow.pl $*
+run: ${vyatta_bindir}/vyatta-vtyshow.pl $*

@@ -1,2 +1,2 @@
 help: Enable BGP input updates debugging
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

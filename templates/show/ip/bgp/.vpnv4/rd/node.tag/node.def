@@ -1,3 +1,3 @@
 help: Show BGP information for given ASN, address or network
 allowed: echo -n '<ASN>' '<A.B.C.D>' '<A.B.C.D/M>' '<X:X::X:X>' '<X:X::X:X/M>'
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

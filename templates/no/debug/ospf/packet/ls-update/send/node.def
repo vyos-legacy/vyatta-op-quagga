@@ -1,2 +1,2 @@
 help: Disable OSPF send ls-update packet debugging
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

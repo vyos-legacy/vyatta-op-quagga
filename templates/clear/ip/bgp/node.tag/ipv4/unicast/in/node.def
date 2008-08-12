@@ -1,2 +1,2 @@
 help: Clear BGP statistics or statuswild card
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

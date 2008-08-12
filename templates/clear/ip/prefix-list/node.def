@@ -1,2 +1,2 @@
 help: Clear prefix-list statistics or status
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

@@ -1,2 +1,2 @@
 help: Enable BGP keepalives debugging
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

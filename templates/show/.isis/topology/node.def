@@ -1,2 +1,2 @@
 help: Show ISIS topology
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

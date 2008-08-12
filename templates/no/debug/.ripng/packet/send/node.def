@@ -1,2 +1,2 @@
 help: Disable RIPNG send packet debugging
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

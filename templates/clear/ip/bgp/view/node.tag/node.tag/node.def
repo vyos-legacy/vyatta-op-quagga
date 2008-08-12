@@ -1,3 +1,3 @@
 help: Clear BGP statistics or status for specified word|ip address
 allowed: echo -n '<x.x.x.x>' '<X:X::X:X>'
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

@@ -1,2 +1,2 @@
 help: Enable zebra events debugging
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

@@ -1,2 +1,2 @@
 help: Show IPv6 OSPF6 routes
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

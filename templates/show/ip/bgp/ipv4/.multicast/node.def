@@ -1,2 +1,2 @@
 help: Show BGP IPv4 multicast information
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

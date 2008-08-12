@@ -1,2 +1,2 @@
 help: Show BGP routes matching well-known NO_EXPORT community
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

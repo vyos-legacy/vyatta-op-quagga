@@ -1,2 +1,2 @@
 help: Show detailed IPv4 OSPF neighbor information
-run: vtysh -c "show ip ospf neighbor detail"
+run: vyatta-vtysh -c "show ip ospf neighbor detail"

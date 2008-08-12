@@ -1,2 +1,2 @@
 help: Enable zebra send packet debugging
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

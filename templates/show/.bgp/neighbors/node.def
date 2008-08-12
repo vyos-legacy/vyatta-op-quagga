@@ -1,2 +1,2 @@
 help: Show detailed BGP neighbor information
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

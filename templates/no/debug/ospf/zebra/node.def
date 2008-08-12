@@ -1,2 +1,2 @@
 help: Disable OSPF zebra debugging
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"

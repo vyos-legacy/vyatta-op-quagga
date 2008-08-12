@@ -1,2 +1,2 @@
 help: Show detailed IPv4 OSPF neighbor information
-run: ${vyatta_bindir}/vtyshow.pl $*
+run: ${vyatta_bindir}/vyatta-vtyshow.pl $*

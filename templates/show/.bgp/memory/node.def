@@ -1,2 +1,2 @@
 help: Show BGP memory usage
-run: vtysh -c "$*"
+run: vyatta-vtysh -c "$*"
