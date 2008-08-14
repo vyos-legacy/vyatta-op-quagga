@@ -1,2 +1,2 @@
 help: Enable ISIS SPF event debugging
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

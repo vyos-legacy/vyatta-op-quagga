@@ -1,2 +1,2 @@
 help: Show dampened BGP paths
-run: ${vyatta_bindir}/vyatta-vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl $*

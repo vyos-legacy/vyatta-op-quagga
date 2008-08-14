@@ -1,2 +1,2 @@
 help: Show Quagga memory usage
-run: vyatta-vtysh -c "show memory"
+run: vtysh -c "show memory"

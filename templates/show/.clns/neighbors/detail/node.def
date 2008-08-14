@@ -1,2 +1,2 @@
 help: Show detailed information for CLNS neighbor routers
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

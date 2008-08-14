@@ -1,2 +1,2 @@
 help: Show Open Shortest Path First (OSPF) protocol debugging flags
-run: ${vyatta_bindir}/vyatta-vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl $*

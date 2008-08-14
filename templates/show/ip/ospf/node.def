@@ -1,2 +1,2 @@
 help: Show IPv4 Open Shortest Path First (OSPF) routing information
-run: ${vyatta_bindir}/vyatta-vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl $*

@@ -1,2 +1,2 @@
 help: Show IP BGP routes
-run: ${vyatta_bindir}/vyatta-vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl $*

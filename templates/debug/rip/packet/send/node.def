@@ -1,2 +1,2 @@
 help: Enable RIP send packet debugging
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

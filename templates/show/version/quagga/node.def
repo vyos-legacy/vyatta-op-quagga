@@ -1,2 +1,2 @@
 help: Show Quagga version information
-run: vyatta-vtysh -c "show version"
+run: vtysh -c "show version"

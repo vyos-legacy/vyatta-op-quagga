@@ -1,2 +1,2 @@
 help: Disable OSPF recv ls-request packet debugging
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

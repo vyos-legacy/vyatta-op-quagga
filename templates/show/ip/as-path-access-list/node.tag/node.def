@@ -1,2 +1,2 @@
 help: Show specified as-path-access-list
-run: ${vyatta_bindir}/vyatta-vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl $*

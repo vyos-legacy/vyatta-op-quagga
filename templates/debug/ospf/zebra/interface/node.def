@@ -1,2 +1,2 @@
 help: Enable OSPF zebra interface debugging
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

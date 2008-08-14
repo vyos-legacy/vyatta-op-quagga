@@ -1,2 +1,2 @@
 help: Disable BGP events debugging
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

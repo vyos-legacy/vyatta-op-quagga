@@ -1,2 +1,2 @@
 help: Show BGP IPv4 unicast statistics
-run: vyatta-vtysh -c "show bgp ipv4 unicast statistics"
+run: vtysh -c "show bgp ipv4 unicast statistics"

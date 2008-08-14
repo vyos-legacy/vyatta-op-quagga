@@ -1,2 +1,2 @@
 help: Show IP kernel routes
-run: ${vyatta_bindir}/vyatta-vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl $*

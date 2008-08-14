@@ -1,3 +1,3 @@
 help: Show BGP information for specified neighbor
 allowed: echo -n '<IP_address>'
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

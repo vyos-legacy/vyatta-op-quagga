@@ -1,2 +1,2 @@
 help: Show BGP information
-run: vyatta-vtysh -c "show bgp ipv4 vpnv4 statistics"
+run: vtysh -c "show bgp ipv4 vpnv4 statistics"

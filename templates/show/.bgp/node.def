@@ -1,2 +1,2 @@
 help: Show BGP routing information
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

@@ -1,2 +1,2 @@
 help: Show BGP IPv6 information
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

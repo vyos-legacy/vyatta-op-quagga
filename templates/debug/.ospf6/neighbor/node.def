@@ -1,2 +1,2 @@
 help: Enable OSPF6 neighbor debugging
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

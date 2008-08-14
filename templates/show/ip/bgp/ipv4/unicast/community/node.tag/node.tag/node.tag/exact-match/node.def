@@ -1,2 +1,2 @@
 help: Show BGP IPv4 unicast routes which exactly match the specified communities
-run: ${vyatta_bindir}/vyatta-vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl $*

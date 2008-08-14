@@ -1,2 +1,2 @@
 help: Enable OSPF lsa generate debugging
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

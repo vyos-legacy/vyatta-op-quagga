@@ -1,2 +1,2 @@
 help: Enable OSPF nssa debugging
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

@@ -1,2 +1,2 @@
 help: Show BGP information for given WORD, address
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

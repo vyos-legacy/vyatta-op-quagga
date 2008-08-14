@@ -1,2 +1,2 @@
 help: Enable ISIS adj-packets debugging
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

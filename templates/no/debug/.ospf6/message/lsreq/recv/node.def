@@ -1,2 +1,2 @@
 help: Disable OSPF6 recv lsreq message debugging
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

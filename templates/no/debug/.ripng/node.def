@@ -1,2 +1,2 @@
 help: Disable RIPNG protocol debugging
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

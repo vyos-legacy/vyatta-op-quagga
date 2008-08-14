@@ -1,2 +1,2 @@
 help: Show BGP IPv4 multicast routes which exactly match the specified communities
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

@@ -1,2 +1,2 @@
 help: Clear BGP statistics or status for given word|IP address
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

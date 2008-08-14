@@ -1,2 +1,2 @@
 help: Disable OSPF6 SPF database debugging
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

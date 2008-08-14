@@ -1,2 +1,2 @@
 help: Disable OSPF recv hello packet debugging
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

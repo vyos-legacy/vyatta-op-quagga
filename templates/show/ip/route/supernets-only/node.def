@@ -1,2 +1,2 @@
 help: Show IP supernet routes
-run: ${vyatta_bindir}/vyatta-vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl $*

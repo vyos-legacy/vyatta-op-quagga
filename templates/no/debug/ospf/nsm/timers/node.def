@@ -1,2 +1,2 @@
 help: Disable OSPF nsm timers debugging
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

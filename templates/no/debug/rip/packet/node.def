@@ -1,2 +1,2 @@
 help: Disable RIP packet debugging
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

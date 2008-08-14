@@ -1,2 +1,2 @@
 help: Enable OSPF6 route inter-area debugging
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"

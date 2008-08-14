@@ -1,2 +1,2 @@
 help: Show BGP routes without natural netmasks
-run: ${vyatta_bindir}/vyatta-vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl $*

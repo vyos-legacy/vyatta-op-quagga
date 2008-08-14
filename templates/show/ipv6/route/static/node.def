@@ -1,2 +1,2 @@
 help: Show IPv6 static routes
-run: vyatta-vtysh -c "$*"
+run: vtysh -c "$*"
