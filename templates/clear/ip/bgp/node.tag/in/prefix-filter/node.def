@@ -1,2 +1,2 @@
-help: Clear BGP statistics or statuswild card
+help: Clear out the existing ORF prefix-list
 run: vtysh -c "$*"

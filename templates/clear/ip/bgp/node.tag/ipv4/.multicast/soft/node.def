@@ -1,2 +1,2 @@
-help: Clear BGP statistics or statuswild card
+help: Clear via soft reconfig
 run: vtysh -c "$*"

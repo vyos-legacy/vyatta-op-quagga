@@ -1,2 +1,2 @@
-help: Clear BGP statistics or status for given WORDwild card
+help: Clear via soft reconfig
 run: vtysh -c "$*"

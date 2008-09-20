@@ -1,2 +1,2 @@
-help: Clear BGP statistics or status for given IP address
+help: Clear via soft reconfig for rsclient RIB
 run: vtysh -c "$*"

@@ -1,2 +1,2 @@
-help: Clear BGP statistics or status
+help: Clear all BGP external peers
 run: vtysh -c "$*"
