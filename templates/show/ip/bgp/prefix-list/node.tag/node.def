@@ -1,2 +1,2 @@
-help: Show BGP information for specified word
+help: Show Show BGP routes matching the specified prefix list
 run: ${vyatta_bindir}/vtyshow.pl $*

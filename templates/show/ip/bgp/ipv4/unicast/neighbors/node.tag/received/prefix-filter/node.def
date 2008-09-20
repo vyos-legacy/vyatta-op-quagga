@@ -1,2 +1,2 @@
-help: Show BGP information for specified IP address
+help: Show prefixlist filter
 run: ${vyatta_bindir}/vtyshow.pl $*

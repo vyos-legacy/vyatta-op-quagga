@@ -1,2 +1,2 @@
-help: Show BGP information for specified IP address
+help: Show the received routes from neighbor
 run: ${vyatta_bindir}/vtyshow.pl $*
