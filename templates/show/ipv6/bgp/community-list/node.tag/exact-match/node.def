@@ -1,2 +1,2 @@
-help: Show BGP information for given WORD
+help: Show routes exactly matching the community-list name or number
 run: vtysh -c "$*"

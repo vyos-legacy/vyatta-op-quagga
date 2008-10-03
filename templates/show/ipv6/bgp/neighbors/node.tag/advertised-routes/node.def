@@ -1,2 +1,2 @@
-help: Show BGP information for given address
+help: Show routes advertised to a BGP neighbor
 run: vtysh -c "$*"
