@@ -1,2 +1,2 @@
 help: Show RIP protocol status
-run: ${vyatta_bindir}/vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl "$@"

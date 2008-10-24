@@ -1,2 +1,2 @@
 help: Show routes learned from neighbor
-run: ${vyatta_bindir}/vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl "$@"

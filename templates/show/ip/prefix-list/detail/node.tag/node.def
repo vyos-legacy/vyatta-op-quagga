@@ -1,2 +1,2 @@
 help: Show detail of specified IP prefix-list
-run: ${vyatta_bindir}/vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl "$@"

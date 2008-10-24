@@ -1,2 +1,2 @@
 help: Show IP RIP routes
-run: ${vyatta_bindir}/vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl "$@"

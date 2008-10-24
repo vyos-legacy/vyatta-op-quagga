@@ -1,2 +1,2 @@
 help: Show summary of BGP route server client information
-run: ${vyatta_bindir}/vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl "$@"

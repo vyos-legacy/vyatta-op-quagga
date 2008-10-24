@@ -1,2 +1,2 @@
 help: Show flap statistics of the routes learned from BGP neighbor
-run: ${vyatta_bindir}/vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl "$@"

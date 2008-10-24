@@ -1,2 +1,2 @@
 help: Show BGP IPv4 unicast routes without natural netmasks
-run: ${vyatta_bindir}/vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl "$@"

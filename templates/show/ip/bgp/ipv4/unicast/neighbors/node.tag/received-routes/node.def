@@ -1,2 +1,2 @@
 help: Show the received routes from neighbor
-run: ${vyatta_bindir}/vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl "$@"

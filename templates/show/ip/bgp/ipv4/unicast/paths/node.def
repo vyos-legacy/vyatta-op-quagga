@@ -1,2 +1,2 @@
 help: Show BGP IPv4 unicast path information
-run: ${vyatta_bindir}/vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl "$@"

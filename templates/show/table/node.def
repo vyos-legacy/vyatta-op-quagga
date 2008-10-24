@@ -1,2 +1,2 @@
 help: Show routing table
-run: ${vyatta_bindir}/vtyshow.pl $*
+run: ${vyatta_bindir}/vtyshow.pl "$@"
