@@ -1,3 +1,40 @@
+vyatta-op-quagga (0.11) unstable; urgency=low
+
+	  3.2.0
+  [ Mark O'Brien ]
+
+
+  [ Stig Thormodsrud ]
+  * Add command "show ipv6 forwarding".
+
+  [ slioch ]
+  * bugfix 3711 applied to other show cmds that possess similar
+    construction. Applies quotes on each token.
+  * fix fix for 3711--needed to ensure quote is applied to each
+    argument.
+  * fix for bug 3711. argument should be quoted when passed to
+    completion parsing code.
+
+  [ Mohit Mehta ]
+  * Fix Bug 3270 missing/useless bgp operational help strings
+  * comment out support for Multiprotocol BGP as we don't support it
+  * Fix Bug 3270 missing/useless bgp operational help strings
+  * Fix Bug 3270 missing/useless bgp operational help strings
+
+  [ Stephen Hemminger ]
+  * Revert "Convert all uses of vtysh to vyatta-vtysh"
+  * Convert all uses of vtysh to vyatta-vtysh
+  * Revert "replace vyatta-vtysh with vtysh"
+  * replace vyatta-vtysh with vtysh
+
+  [ Stig Thormodsrud ]
+  * Add "clear ipv6" node.
+  * Enable "show ipv6 route".
+
+  [ Mark O'Brien ]
+
+ -- Mark O'Brien <mobrien@firebolt.vyatta.com>  Tue, 25 Nov 2008 19:10:04 -0800
+
 vyatta-op-quagga (0.10) unstable; urgency=low
 
 	  3.1.0
