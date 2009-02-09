@@ -1,0 +1,3 @@
+help: Zebra debugging sub-parameters
+allowed: echo -n 'send' 'recv'
+run: vtysh -c "$1 ospf6 $3 $4 $5 $6"

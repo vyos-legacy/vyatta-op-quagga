@@ -1,0 +1,5 @@
+help: Show LSAs
+allowed: echo -n 'nrouter' 'nnetwork' 'ninter-prefix' 'ninter-router' 'nas-external' 'ngroup-membership' 'ntype-7' 'nlink' 'nintra-prefix'
+run: ${vyatta_bindir}/vtyshow.pl "$@"
+op_help:
+ nrouter    Show router

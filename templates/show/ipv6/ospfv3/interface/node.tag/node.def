@@ -1,0 +1,6 @@
+help: Specific insterface to examine
+allowed: local -a array ;
+	 array=( /sys/class/net/* ) ;
+	 echo  -n ${array[@]##*/}
+run: ${vyatta_bindir}/vtyshow.pl "$@"
+

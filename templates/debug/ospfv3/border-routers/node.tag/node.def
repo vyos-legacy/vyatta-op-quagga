@@ -1,0 +1,4 @@
+help: Border router debugging sub-parameters
+allowed: echo -n 'area-id' 'router-id'
+
+

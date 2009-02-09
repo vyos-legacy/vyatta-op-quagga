@@ -1,0 +1,2 @@
+help: Enable OSPFv3 ASBR debugging
+run: vtysh -c "$1 ospf6 $3 $4 $5 $6"
