@@ -1,3 +1,0 @@
-help: Enable OSPF6 border-routers debugging for given router-id [A.B.C.D]
-allowed: echo -n '<A.B.C.D>'
-run: vtysh -c "$*"

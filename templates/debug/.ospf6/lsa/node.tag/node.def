@@ -1,3 +1,0 @@
-help: Enable OSPF6 debugging for given LSA
-allowed: echo -n '<XXXX>' '<0xXXXX>'
-run: vtysh -c "$*"
