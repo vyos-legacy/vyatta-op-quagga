@@ -1,2 +1,0 @@
-help: Disable OSPF6 ABR debugging
-run: vtysh -c "$*"

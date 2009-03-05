@@ -1,2 +1,0 @@
-help: Disable OSPF6 lsack message debugging
-run: vtysh -c "$*"

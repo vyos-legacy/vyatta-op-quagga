@@ -1,2 +1,0 @@
-help: Disable OSPF6 protocol debugging
-run: vtysh -c "$*"

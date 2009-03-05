@@ -1,2 +1,0 @@
-help: Disable OSPF6 recv dbdesc message debugging
-run: vtysh -c "$*"
