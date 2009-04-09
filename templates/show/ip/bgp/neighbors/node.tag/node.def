@@ -1,3 +1,7 @@
 help: Show BGP information for specified neighbor
-allowed: echo -n '<IP_address>'
+
+allowed:
+     l1=`ls /opt/vyatta/config/active/protocols/bgp/*/neighbor 2>/dev/null | egrep '^[0-9].*'`
+     echo $l1
+
 run: ${vyatta_bindir}/vtyshow.pl "$@"
