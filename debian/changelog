@@ -1,3 +1,10 @@
+vyatta-op-quagga (0.11.6) unstable; urgency=low
+
+  * Add ospfv3 to show debugging
+  * Ignore editor temporary files
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Thu, 28 May 2009 11:28:11 -0700
+
 vyatta-op-quagga (0.11.5) unstable; urgency=low
 
   * Fix 3219: Include a list of configured BGP neighbors for 'show ip
