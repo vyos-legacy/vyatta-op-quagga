@@ -1,3 +1,9 @@
+vyatta-op-quagga (0.11.10) unstable; urgency=low
+
+  * Replace vyatta-vtysh with vtysh
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Mon, 08 Mar 2010 16:33:53 -0800
+
 vyatta-op-quagga (0.11.9) unstable; urgency=low
 
   * UNRELEASED
