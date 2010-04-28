@@ -1,2 +1,0 @@
-help: Show ISIS database
-run: vtysh -c "$*"

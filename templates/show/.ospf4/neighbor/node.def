@@ -1,2 +1,0 @@
-help: Show IPv4 OSPF neighbor information
-run: vtysh -c "show ip ospf neighbor"

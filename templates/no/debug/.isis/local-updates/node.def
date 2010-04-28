@@ -1,2 +1,0 @@
-help: Disable ISIS local-updates debugging
-run: vtysh -c "$*"

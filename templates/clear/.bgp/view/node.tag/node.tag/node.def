@@ -1,3 +1,0 @@
-help: Clear BGP statistics or status for given WORD, address
-allowed: echo -n '<A.B.C.D>' '<X:X::X:X>'
-run: vtysh -c "$*"

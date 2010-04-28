@@ -1,3 +1,0 @@
-help: Show BGP routes matching specified community
-allowed: echo -n '<AA:NN>'
-run: vtysh -c "$*"

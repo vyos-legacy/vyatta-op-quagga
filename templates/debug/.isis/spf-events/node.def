@@ -1,2 +1,0 @@
-help: Enable ISIS SPF event debugging
-run: vtysh -c "$*"

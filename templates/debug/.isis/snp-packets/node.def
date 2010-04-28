@@ -1,2 +1,0 @@
-help: Enable ISIS snp-packets debugging
-run: vtysh -c "$*"

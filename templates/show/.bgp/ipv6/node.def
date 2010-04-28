@@ -1,2 +1,0 @@
-help: Show BGP IPv6 information
-run: vtysh -c "$*"

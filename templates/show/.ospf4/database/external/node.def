@@ -1,2 +1,0 @@
-help: Show IPv4 OSPF external database
-run: vtysh -c "show ip ospf database external"

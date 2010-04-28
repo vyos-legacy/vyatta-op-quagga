@@ -1,2 +1,0 @@
-help: Disable ISIS adj-packets debugging
-run: vtysh -c "$*"

@@ -1,2 +1,0 @@
-help: Show BGP information for given address
-allowed: echo -n '<A.B.C.D>' '<X:X::X:X>'

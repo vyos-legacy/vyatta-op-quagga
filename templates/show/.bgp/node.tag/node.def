@@ -1,3 +1,0 @@
-help: Show BGP information for specified address or prefix
-allowed: echo -n '<IP_address>' '<prefix>'
-run: vtysh -c "$*"

@@ -1,2 +1,0 @@
-help: Show IP ISIS routes
-run: vtysh -c "$*"
