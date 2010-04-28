@@ -1,2 +1,0 @@
-help: Show BGP information
-run: vtysh -c "show bgp ipv4 vpnv4 statistics"

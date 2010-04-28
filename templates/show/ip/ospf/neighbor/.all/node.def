@@ -1,2 +1,0 @@
-help: Show IPv4 OSPF information of all neighbors
-run: vtysh -c "$*"

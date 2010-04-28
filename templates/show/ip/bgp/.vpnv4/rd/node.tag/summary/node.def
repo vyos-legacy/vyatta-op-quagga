@@ -1,2 +1,0 @@
-help: Show BGP information for given ASN:nn_or_IP-address:nn
-run: vtysh -c "$*"

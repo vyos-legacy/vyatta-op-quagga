@@ -1,2 +1,0 @@
-help: Clear PREFIX-LIST statistics or status
-run: vtysh -c "$*"
