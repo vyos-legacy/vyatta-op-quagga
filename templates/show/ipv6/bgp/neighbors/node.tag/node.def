@@ -1,2 +1,5 @@
 help: Show detailed information on TCP and BGP neighbor connections for given address
-allowed: echo -n '<A.B.C.D>' '<X:X::X:X>'
+allowed:
+     l1=`ls /opt/vyatta/config/active/protocols/bgp/*/neighbor 2>/dev/null | egrep '^[0-9].*'`
+     echo $l1
+run: ${vyatta_bindir}/vtyshow.pl "show" "ip bgp neighbor $5"
