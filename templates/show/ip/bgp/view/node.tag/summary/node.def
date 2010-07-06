@@ -1,2 +1,0 @@
-help: Show summary of BGP neighbor status
-run: ${vyatta_bindir}/vtyshow.pl "$@"

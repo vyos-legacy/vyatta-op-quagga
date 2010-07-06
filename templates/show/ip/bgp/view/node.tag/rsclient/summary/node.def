@@ -1,2 +1,0 @@
-help: Show summary of BGP information about Route Server Client
-run: ${vyatta_bindir}/vtyshow.pl "$@"

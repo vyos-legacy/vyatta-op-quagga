@@ -1,3 +1,0 @@
-help: Show BGP information using the specified view
-allowed: echo -n '<WORD>'
-run: ${vyatta_bindir}/vtyshow.pl "$@"
