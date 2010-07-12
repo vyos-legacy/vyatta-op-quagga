@@ -1,2 +1,0 @@
-help: Show BGP IPv4 multicast routes which exactly match the specified community
-run: vtysh -c "$*"

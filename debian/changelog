@@ -1,3 +1,10 @@
+vyatta-op-quagga (0.11.16) unstable; urgency=low
+
+  * Remove more old hidden templates
+  * Add completion for 'show ipv6 bgp community'
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Tue, 06 Jul 2010 18:14:09 -0700
+
 vyatta-op-quagga (0.11.15) unstable; urgency=low
 
   [ Jon Andersson ]

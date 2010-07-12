@@ -1,2 +1,3 @@
 help: Show BGP information for specified community number
+allowed: echo -n '<AA:NN> local-AS no-advertise no-export'
 run: vtysh -c "$*"
