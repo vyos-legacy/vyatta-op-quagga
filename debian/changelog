@@ -1,3 +1,9 @@
+vyatta-op-quagga (0.11.18) unstable; urgency=low
+
+  * UNRELEASED
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Thu, 22 Jul 2010 17:25:20 -0700
+
 vyatta-op-quagga (0.11.17) unstable; urgency=low
 
   * fix for bug 5781
