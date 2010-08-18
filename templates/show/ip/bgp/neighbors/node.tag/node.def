@@ -1,7 +1,11 @@
 help: Show BGP information for specified neighbor
 
 allowed:
-     l1=`ls /opt/vyatta/config/active/protocols/bgp/*/neighbor 2>/dev/null | egrep '^[0-9].*'`
-     echo $l1
-
+  local -a bnodes
+  local -a nnodes
+  eval "bnodes=($(cli-shell-api listActiveNodes protocols bgp))"
+  for b in "${bnodes[@]}"; do
+    eval "nnodes=($(cli-shell-api listActiveNodes protocols bgp $b neighbor))"
+    echo -n "${nnodes[@]}" ' '
+  done
 run: ${vyatta_bindir}/vtyshow.pl "$@"
