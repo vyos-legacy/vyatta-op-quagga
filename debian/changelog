@@ -1,3 +1,9 @@
+vyatta-op-quagga (0.11.20ubuntu1) karmic; urgency=low
+
+  * fix for bug 6298, removing '*' in the end
+
+ -- Arthur Xiong <arthur@vyatta.com>  Wed, 24 Nov 2010 00:24:50 -0800
+
 vyatta-op-quagga (0.11.20) unstable; urgency=low
 
   * UNRELEASED
