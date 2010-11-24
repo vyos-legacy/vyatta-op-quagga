@@ -1,3 +1,10 @@
+vyatta-op-quagga (0.11.20ubuntu3) karmic; urgency=low
+
+  [ vyatta ]
+  * 0.11.22
+
+ -- Arthur Xiong <arthur@vyatta.com>  Wed, 24 Nov 2010 19:18:17 +0000
+
 vyatta-op-quagga (0.11.20ubuntu2) karmic; urgency=low
 
   * 0.11.21
