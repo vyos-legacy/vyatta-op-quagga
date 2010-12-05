@@ -1,3 +1,9 @@
+vyatta-op-quagga (0.11.24) karmic; urgency=low
+
+  * fix for bug 2543.  add clear ip bgp all
+
+ -- Robert Bays <robert@vyatta.com>  Sat, 04 Dec 2010 18:37:16 -0800
+
 vyatta-op-quagga (0.11.23) karmic; urgency=low
 
   * 0.11.20ubuntu3
