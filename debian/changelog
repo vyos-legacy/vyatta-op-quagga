@@ -1,3 +1,9 @@
+vyatta-op-quagga (0.11.25) karmic; urgency=low
+
+  * new branch
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Tue, 28 Dec 2010 13:51:03 -0800
+
 vyatta-op-quagga (0.11.24) karmic; urgency=low
 
   * fix for bug 2543.  add clear ip bgp all
