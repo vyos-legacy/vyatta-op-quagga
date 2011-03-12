@@ -1,3 +1,10 @@
+vyatta-op-quagga (0.11.26) karmic; urgency=low
+
+  * Remove debug rip packet detail commands
+  * Remove debug rip packet detail commands
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Sat, 12 Mar 2011 11:58:59 -0800
+
 vyatta-op-quagga (0.11.25) karmic; urgency=low
 
   * new branch
