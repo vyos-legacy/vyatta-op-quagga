@@ -1,3 +1,9 @@
+vyatta-op-quagga (0.11.27) karmic; urgency=low
+
+  * new branch
+
+ -- Deepti Kulkarni <deepti@vyatta.com>  Thu, 07 Jul 2011 20:58:21 -0700
+
 vyatta-op-quagga (0.11.26) karmic; urgency=low
 
   * Remove debug rip packet detail commands
