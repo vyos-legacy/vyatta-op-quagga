@@ -1,2 +1,0 @@
-help: Disable all BGP protocol debugging
-run: vtysh -c "$*"
