@@ -1,0 +1,2 @@
+help: Clear via soft reconfig of outbound update
+run: vtysh -c " clear ip bgp peer-group $5 ipv4 unicast out"

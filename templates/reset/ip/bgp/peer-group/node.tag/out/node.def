@@ -1,0 +1,2 @@
+help: Clear BGP statistics or status for specified word
+run: vtysh -c " clear ip bgp peer-group $5 out"

@@ -1,0 +1,2 @@
+help: Clear all BGP external peers
+run: vtysh -c ""

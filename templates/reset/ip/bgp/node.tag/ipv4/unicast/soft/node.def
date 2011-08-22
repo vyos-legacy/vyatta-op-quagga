@@ -1,0 +1,2 @@
+help: Clear via soft reconfig
+run: vtysh -c " clear ip bgp $4 ipv4 unicast soft"
