@@ -1,2 +1,0 @@
-help: Clear via soft reconfig
-run: vtysh -c "$*"

@@ -1,2 +1,0 @@
-help: Clear via soft reconfig of outbound update
-run: vtysh -c "$*"

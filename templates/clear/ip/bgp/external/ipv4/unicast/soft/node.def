@@ -1,2 +1,0 @@
-help: Clear BGP external peer information via soft reconfig
-run: vtysh -c "$*"

@@ -1,0 +1,3 @@
+help: Clear BGP route flap dampening information for given host|network address
+allowed: echo -n '<x.x.x.x>' '<x.x.x.x/x>'
+run: vtysh -c " clear ip bgp dampening $5"
