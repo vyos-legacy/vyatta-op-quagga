@@ -1,2 +1,0 @@
-help: Disable OSPF nsm timers debugging
-run: vtysh -c "$*"

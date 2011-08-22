@@ -1,0 +1,2 @@
+help: Disable BGP events debugging
+run: vtysh -c "no debug bgp events "

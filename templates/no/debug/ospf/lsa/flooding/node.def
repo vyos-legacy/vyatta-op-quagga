@@ -1,2 +1,0 @@
-help: Disable OSPF lsa flooding debugging
-run: vtysh -c "$*"

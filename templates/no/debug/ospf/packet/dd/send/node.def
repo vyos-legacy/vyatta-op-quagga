@@ -1,2 +1,0 @@
-help: Disable OSPF send dd packet debugging
-run: vtysh -c "$*"

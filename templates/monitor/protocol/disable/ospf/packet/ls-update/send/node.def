@@ -1,0 +1,2 @@
+help: Disable OSPF send ls-update packet debugging
+run: vtysh -c "no debug ospf packet ls-update send "

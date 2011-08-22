@@ -1,0 +1,2 @@
+help: Disable detailed OSPF recv ls-request packet debugging
+run: vtysh -c "no debug ospf packet ls-request recv detail "

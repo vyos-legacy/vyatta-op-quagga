@@ -1,2 +1,0 @@
-help: Enable zebra rib debugging
-run: vtysh -c "$*"

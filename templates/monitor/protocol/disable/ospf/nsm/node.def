@@ -1,0 +1,2 @@
+help: Disable OSPF nsm debugging
+run: vtysh -c "no debug ospf nsm "

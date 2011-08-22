@@ -1,0 +1,2 @@
+help: Enable detailed OSPF send all packet debugging
+run: vtysh -c "debug ospf packet all send detail "

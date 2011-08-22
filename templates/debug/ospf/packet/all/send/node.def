@@ -1,2 +1,0 @@
-help: Enable OSPF send all packet debugging
-run: vtysh -c "$*"

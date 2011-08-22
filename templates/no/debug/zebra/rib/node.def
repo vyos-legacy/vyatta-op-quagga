@@ -1,2 +1,0 @@
-help: Disable zebra rib debugging
-run: vtysh -c "$*"

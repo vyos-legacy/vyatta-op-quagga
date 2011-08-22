@@ -1,0 +1,2 @@
+help: Enable zebra rib queue debugging
+run: vtysh -c "debug zebra rib queue "

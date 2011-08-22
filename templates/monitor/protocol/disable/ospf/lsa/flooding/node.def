@@ -1,0 +1,2 @@
+help: Disable OSPF lsa flooding debugging
+run: vtysh -c "no debug ospf lsa flooding "

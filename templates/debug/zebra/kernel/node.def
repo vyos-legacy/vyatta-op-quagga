@@ -1,2 +1,0 @@
-help: Enable zebra kernel debugging
-run: vtysh -c "$*"

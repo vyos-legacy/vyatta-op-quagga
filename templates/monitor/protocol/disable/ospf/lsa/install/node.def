@@ -1,0 +1,2 @@
+help: Disable OSPF lsa install debugging
+run: vtysh -c "no debug ospf lsa install "

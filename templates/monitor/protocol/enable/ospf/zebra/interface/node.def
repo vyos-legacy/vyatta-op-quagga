@@ -1,0 +1,2 @@
+help: Enable OSPF zebra interface debugging
+run: vtysh -c "debug ospf zebra interface "

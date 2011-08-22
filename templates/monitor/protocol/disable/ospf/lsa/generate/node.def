@@ -1,0 +1,2 @@
+help: Disable OSPF lsa generate debugging
+run: vtysh -c "no debug ospf lsa generate "

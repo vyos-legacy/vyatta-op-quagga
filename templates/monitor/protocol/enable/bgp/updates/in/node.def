@@ -1,0 +1,2 @@
+help: Enable BGP input updates debugging
+run: vtysh -c "debug bgp updates in "

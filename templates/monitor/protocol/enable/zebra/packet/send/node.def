@@ -1,0 +1,2 @@
+help: Enable zebra send packet debugging
+run: vtysh -c "debug zebra packet send "

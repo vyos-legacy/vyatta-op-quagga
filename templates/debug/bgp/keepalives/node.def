@@ -1,2 +1,0 @@
-help: Enable BGP keepalives debugging
-run: vtysh -c "$*"

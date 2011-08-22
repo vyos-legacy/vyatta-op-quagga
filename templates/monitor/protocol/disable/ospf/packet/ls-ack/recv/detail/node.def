@@ -1,0 +1,2 @@
+help: Disable detailed OSPF recv ls-ack packet debugging
+run: vtysh -c "no debug ospf packet ls-ack recv detail "

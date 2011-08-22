@@ -1,2 +1,0 @@
-help: Enable OSPF ism events debugging
-run: vtysh -c "$*"

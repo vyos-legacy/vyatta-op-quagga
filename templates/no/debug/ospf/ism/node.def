@@ -1,2 +1,0 @@
-help: Disable OSPF ism debugging
-run: vtysh -c "$*"

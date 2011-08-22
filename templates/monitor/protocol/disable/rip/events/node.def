@@ -1,0 +1,2 @@
+help: Disable RIP events debugging
+run: vtysh -c "no debug rip events "
