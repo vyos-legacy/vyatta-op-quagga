@@ -1,2 +1,0 @@
-help: Disable OSPF send ls-request packet debugging
-run: vtysh -c "$*"

@@ -1,2 +1,0 @@
-help: Enable OSPF zebra interface debugging
-run: vtysh -c "$*"

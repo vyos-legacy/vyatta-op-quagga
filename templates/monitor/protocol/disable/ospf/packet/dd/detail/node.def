@@ -1,0 +1,2 @@
+help: Disable detailed OSPF dd packet debugging
+run: vtysh -c "no debug ospf packet dd detail "

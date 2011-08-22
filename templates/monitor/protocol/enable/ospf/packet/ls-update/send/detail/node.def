@@ -1,0 +1,2 @@
+help: Enable detailed OSPF send ls-update packet debugging
+run: vtysh -c "debug ospf packet ls-update send detail "

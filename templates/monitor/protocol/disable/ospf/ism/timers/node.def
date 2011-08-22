@@ -1,0 +1,2 @@
+help: Disable OSPF ism timers debugging
+run: vtysh -c "no debug ospf ism timers "

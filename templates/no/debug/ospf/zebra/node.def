@@ -1,2 +1,0 @@
-help: Disable OSPF zebra debugging
-run: vtysh -c "$*"

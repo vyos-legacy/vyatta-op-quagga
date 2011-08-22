@@ -1,2 +1,0 @@
-help: Disable OSPF lsa generate debugging
-run: vtysh -c "$*"

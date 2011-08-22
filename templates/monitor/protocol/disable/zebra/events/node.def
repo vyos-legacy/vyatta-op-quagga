@@ -1,0 +1,2 @@
+help: Disable zebra events debugging
+run: vtysh -c "no debug zebra events "

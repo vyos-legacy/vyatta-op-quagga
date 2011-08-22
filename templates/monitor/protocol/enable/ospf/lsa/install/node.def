@@ -1,0 +1,2 @@
+help: Enable OSPF lsa install debugging
+run: vtysh -c "debug ospf lsa install "

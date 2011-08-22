@@ -1,0 +1,2 @@
+help: Enable RIPNG zebra debugging
+run: vtysh -c "debug ripng zebra "

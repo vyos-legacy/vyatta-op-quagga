@@ -1,2 +1,0 @@
-help: Enable zebra events debugging
-run: vtysh -c "$*"

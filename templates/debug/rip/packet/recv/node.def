@@ -1,2 +1,0 @@
-help: Enable RIP recv packet debugging
-run: vtysh -c "$*"

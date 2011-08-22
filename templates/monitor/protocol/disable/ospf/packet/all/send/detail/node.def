@@ -1,0 +1,2 @@
+help: Disable detailed OSPF send all packet debugging
+run: vtysh -c "no debug ospf packet all send detail "

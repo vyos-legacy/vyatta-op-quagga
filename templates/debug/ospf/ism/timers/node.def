@@ -1,2 +1,0 @@
-help: Enable OSPF ism timers debugging
-run: vtysh -c "$*"

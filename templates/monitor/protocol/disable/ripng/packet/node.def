@@ -1,0 +1,2 @@
+help: Disable RIPNG packet debugging
+run: vtysh -c "no debug ripng packet "

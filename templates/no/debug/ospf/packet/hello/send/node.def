@@ -1,2 +1,0 @@
-help: Disable OSPF send hello packet debugging
-run: vtysh -c "$*"

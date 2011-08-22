@@ -1,2 +1,0 @@
-help: Disable RIPNG events debugging
-run: vtysh -c "$*"

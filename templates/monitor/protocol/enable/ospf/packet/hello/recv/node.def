@@ -1,0 +1,2 @@
+help: Enable OSPF recv hello packet debugging
+run: vtysh -c "debug ospf packet hello recv "

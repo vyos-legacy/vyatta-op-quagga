@@ -1,2 +1,0 @@
-help: Disable OSPF lsa refresh debugging
-run: vtysh -c "$*"

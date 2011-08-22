@@ -1,2 +1,0 @@
-help: Enable detailed zebra recv packet debugging
-run: vtysh -c "$*"

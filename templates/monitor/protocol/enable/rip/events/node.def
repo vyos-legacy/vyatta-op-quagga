@@ -1,0 +1,2 @@
+help: Enable RIP events debugging
+run: vtysh -c "debug rip events "

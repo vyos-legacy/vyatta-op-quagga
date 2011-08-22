@@ -1,2 +1,0 @@
-help: Enable OSPF nssa debugging
-run: vtysh -c "$*"

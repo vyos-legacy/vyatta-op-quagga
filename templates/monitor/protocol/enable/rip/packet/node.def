@@ -1,0 +1,2 @@
+help: Enable RIP packet debugging
+run: vtysh -c "debug rip packet "

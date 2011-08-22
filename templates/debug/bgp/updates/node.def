@@ -1,2 +1,0 @@
-help: Enable BGP updates debugging
-run: vtysh -c "$*"

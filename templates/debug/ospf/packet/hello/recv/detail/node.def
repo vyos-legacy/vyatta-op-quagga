@@ -1,2 +1,0 @@
-help: Enable detailed OSPF recv hello packet debugging
-run: vtysh -c "$*"

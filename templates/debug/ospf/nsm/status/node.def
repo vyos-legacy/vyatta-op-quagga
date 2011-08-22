@@ -1,2 +1,0 @@
-help: Enable OSPF nsm status debugging
-run: vtysh -c "$*"

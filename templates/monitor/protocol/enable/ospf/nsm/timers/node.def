@@ -1,0 +1,2 @@
+help: Enable OSPF nsm timers debugging
+run: vtysh -c "debug ospf nsm timers "
