@@ -1,0 +1,2 @@
+help: Disable OSPF rib debugging
+run: vtysh -c "no debug ospf zebra "

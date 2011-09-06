@@ -1,2 +1,0 @@
-help: Disable RIPNG zebra debugging
-run: vtysh -c "no debug ripng zebra "

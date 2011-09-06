@@ -1,2 +1,0 @@
-help: Disable OSPFv3 connection to zebra debugging
-run: vtysh -c "$1 $2 ospf6 $4 $5 $6 $7"

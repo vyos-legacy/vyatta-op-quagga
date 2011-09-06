@@ -1,0 +1,2 @@
+help: Disable rib packet debugging
+run: vtysh -c "no debug zebra packet "

@@ -1,2 +1,0 @@
-help: Disable zebra kernel debugging
-run: vtysh -c "no debug zebra kernel "

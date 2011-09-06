@@ -1,0 +1,2 @@
+help: Enable detailed rib send packet debugging
+run: vtysh -c "debug zebra packet send detail "

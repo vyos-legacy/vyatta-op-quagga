@@ -1,0 +1,2 @@
+help: Enable rib rib debugging
+run: vtysh -c "debug zebra rib "

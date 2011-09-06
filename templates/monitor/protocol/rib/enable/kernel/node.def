@@ -1,0 +1,2 @@
+help: Enable rib kernel debugging
+run: vtysh -c "debug zebra kernel "

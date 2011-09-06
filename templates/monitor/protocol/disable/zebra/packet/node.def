@@ -1,2 +1,0 @@
-help: Disable zebra packet debugging
-run: vtysh -c "no debug zebra packet "
