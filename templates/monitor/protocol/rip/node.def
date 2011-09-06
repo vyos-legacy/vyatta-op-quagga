@@ -1,1 +1,3 @@
 help: Monitor the Routing Information Protocol (RIP)
+
+run: ${vyatta_bindir}/vyatta-monitor RIP rip
