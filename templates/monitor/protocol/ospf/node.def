@@ -1,1 +1,2 @@
 help: Monitor the Open Shortest Path First (OSPF) protocol
+run: ${vyatta_bindir}/vyatta-monitor OSPF ospfd

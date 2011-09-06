@@ -1,1 +1,2 @@
 help: Monitor the Border Gateway Protocol (BGP) 
+run: ${vyatta_bindir}/vyatta-monitor BGP bgp

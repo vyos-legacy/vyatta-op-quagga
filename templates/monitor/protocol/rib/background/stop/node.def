@@ -1,0 +1,2 @@
+help: Stop background monitoring for RIB
+run: ${vyatta_bindir}/vyatta-monitor-background-stop RIB

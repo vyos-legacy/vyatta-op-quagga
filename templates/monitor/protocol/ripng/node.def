@@ -1,1 +1,2 @@
 help: Monitor the Routing Information Protocol Next Generation (RIPng) protocol
+run: ${vyatta_bindir}/vyatta-monitor RIPng ripng

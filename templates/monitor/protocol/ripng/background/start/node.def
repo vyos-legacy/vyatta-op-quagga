@@ -1,0 +1,2 @@
+help: Start background monitoring for RIPng
+run: ${vyatta_bindir}/vyatta-monitor-background RIPng ripng

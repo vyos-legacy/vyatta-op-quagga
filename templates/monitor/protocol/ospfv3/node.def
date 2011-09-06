@@ -1,1 +1,2 @@
 help: Monitor the IPv6 Open Shortest Path First (OSPFv3) protocol
+run: ${vyatta_bindir}/vyatta-monitor OSPFv3 ospf6

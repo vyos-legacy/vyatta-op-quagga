@@ -1,0 +1,2 @@
+help: Stop background monitoring for BGP
+run: ${vyatta_bindir}/vyatta-monitor-background-stop BGP
