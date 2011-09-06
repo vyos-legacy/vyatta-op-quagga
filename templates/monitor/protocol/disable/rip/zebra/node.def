@@ -1,2 +1,0 @@
-help: Disable RIP zebra debugging
-run: vtysh -c "no debug rip zebra "

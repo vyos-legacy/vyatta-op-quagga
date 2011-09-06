@@ -1,2 +1,0 @@
-help: Disable zebra rib queue debugging
-run: vtysh -c "no debug zebra rib queue "

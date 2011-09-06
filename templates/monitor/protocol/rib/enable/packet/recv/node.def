@@ -1,0 +1,2 @@
+help: Enable rib recv packet debugging
+run: vtysh -c "debug zebra packet recv "

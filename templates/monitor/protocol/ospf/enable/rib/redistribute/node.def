@@ -1,0 +1,2 @@
+help: Enable OSPF rib redistribute debugging
+run: vtysh -c "debug ospf zebra redistribute "

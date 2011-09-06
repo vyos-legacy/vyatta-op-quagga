@@ -1,0 +1,2 @@
+help: Disable BGP rib debugging
+run: vtysh -c "no debug bgp zebra "
