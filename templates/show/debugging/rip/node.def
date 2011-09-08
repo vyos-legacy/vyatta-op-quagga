@@ -1,2 +1,0 @@
-help: Show Routing Information Protocol (RIP) debugging flags
-run: ${vyatta_bindir}/vtyshow.pl "$@"
