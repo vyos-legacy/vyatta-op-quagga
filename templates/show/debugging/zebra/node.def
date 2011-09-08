@@ -1,2 +1,0 @@
-help: Show zebra debugging flags
-run: ${vyatta_bindir}/vtyshow.pl "$@"
