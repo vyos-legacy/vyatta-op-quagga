@@ -1,2 +1,2 @@
 help: Disable OSPFv3 flooding debugging
-run: vtysh -c "$1 $2 ospf6 $4 $5 $6 $7"
+run: vtysh -c "no debug ospf6 $5 $6 $7 $8"
