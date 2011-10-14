@@ -1,2 +1,2 @@
 help: Start background monitoring for OSPFv3
-run: ${vyatta_bindir}/vyatta-monitor-background OSPFv3 ospfv3
+run: ${vyatta_bindir}/vyatta-monitor-background OSPFv3 ospf6
