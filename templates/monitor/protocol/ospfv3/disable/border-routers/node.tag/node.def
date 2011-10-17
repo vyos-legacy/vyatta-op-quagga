@@ -1,3 +1,4 @@
-type: ipv4
-help: Area ID
-run: vtysh -c "no debug ospf6 $5 $6 $7 $8"
+help: Border router debugging sub-parameters
+allowed: echo -n 'area-id' 'router-id'
+
+
