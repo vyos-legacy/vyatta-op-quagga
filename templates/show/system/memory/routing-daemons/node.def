@@ -1,0 +1,2 @@
+help: Show memory usage of all routing protocols
+run: vtysh -c "show memory"
