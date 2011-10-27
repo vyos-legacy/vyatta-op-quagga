@@ -1,3 +1,34 @@
+vyatta-op-quagga (0.11.28) karmic; urgency=low
+
+  * Initial protocol debugging move
+  * Remove undebug commands since these are duplicates of 'no debug'
+    commands. Move 'show zebra' to 'show rib'
+  * Move 'clear ip bgp' to 'reset ip bgp'
+  * Rearrange monitor protocol based on input from support.
+  * Add top level node.def files to protocol monitioring
+  * Add help tag to new node.defs
+  * Move disable all to be under BGP since it was the only protocol with
+    an disable all debugging option
+  * Add log monitoring for routing protocols
+  * Move 'show debugging' to 'show monitoring protocols' to reflect new
+    debugging layout
+  * Fix show rib commmand
+  * Remove show zebra command
+  * Move 'monitor protocol bgp [enable|disable]' command to 'monitor
+    protocol bgp [enable|disable] messages' for clarity, the command
+    made sense without a modifier when it was 'debug bgp' but doesn't
+    when it is directly under enable and disable.
+  * Adjust positional parameter offset for ospfv3 monitor commands
+  * Search for correct string for ospfv3 messages
+  * Fix rib debugging; fix border-routers undebugging
+  * Bugfix 7065: move 'show ipv6 route ospf6' to 'show ipv6 route
+    ospfv3'
+  * Remove reference to quagga in 'show system memory'
+  * Fix rib background debugging
+  * Fix missing node.def for adv-router commands
+
+ -- John Southworth <john.southworth@vyatta.com>  Thu, 27 Oct 2011 17:48:39 -0500
+
 vyatta-op-quagga (0.11.27) karmic; urgency=low
 
   * new branch
