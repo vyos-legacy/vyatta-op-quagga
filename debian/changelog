@@ -1,3 +1,10 @@
+vyatta-op-quagga (0.11.29) karmic; urgency=low
+
+  * Bugfix 3220 show available neighbors for 'reset ip bgp' allowed
+    values
+
+ -- John Southworth <john.southworth@vyatta.com>  Wed, 29 Feb 2012 21:11:12 +0000
+
 vyatta-op-quagga (0.11.28) karmic; urgency=low
 
   * Initial protocol debugging move
