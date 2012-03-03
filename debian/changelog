@@ -1,3 +1,9 @@
+vyatta-op-quagga (0.11.30) karmic; urgency=low
+
+  * new branch
+
+ -- Deepti Kulkarni <deepti@vyatta.com>  Sat, 03 Mar 2012 02:26:22 -0800
+
 vyatta-op-quagga (0.11.29) karmic; urgency=low
 
   * Bugfix 3220 show available neighbors for 'reset ip bgp' allowed
