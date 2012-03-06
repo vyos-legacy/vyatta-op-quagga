@@ -2,4 +2,5 @@ help: Reset BGP statistics or status for given peer-group
 allowed: local -a vals
          eval "bgp_as=$(cli-shell-api listActiveNodes protocols bgp)"
          eval "vals=($(cli-shell-api listActiveNodes protocols bgp $bgp_as peer-group))"
+         echo -n '<text>' ${vals[@]}
 run: vtysh -c "clear $3 $2 $4 $5 $6 $7 $8 $9"
