@@ -1,2 +1,2 @@
 help: Clear out prefix-list ORF and do inbound soft reconfig
-run: vtysh -c ""
+run: vtysh -c "clear ip bgp external in prefix-filter"

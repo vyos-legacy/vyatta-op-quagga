@@ -1,0 +1,2 @@
+help: Push out prefix-list ORF and do inbound soft reconfig
+run: vtysh -c "clear $3 $2 $4 $5 $6 $7 $8 $9"
