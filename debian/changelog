@@ -1,3 +1,9 @@
+vyatta-op-quagga (0.11.29+oxnard3) karmic; urgency=low
+
+  * Fix peer-group completion
+
+ -- John Southworth <john.southworth@vyatta.com>  Tue, 06 Mar 2012 16:40:02 +0000
+
 vyatta-op-quagga (0.11.29+oxnard2) karmic; urgency=low
 
   * Bugfix 5941: Add 'reset ipv6 bgp' commands
