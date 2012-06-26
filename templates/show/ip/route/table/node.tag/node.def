@@ -1,0 +1,3 @@
+help: Show IP routes in policy table
+allowed: echo -n '<1-250>'
+run: ${vyatta_bindir}/vtyshow.pl "$@"
