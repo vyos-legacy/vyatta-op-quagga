@@ -1,3 +1,9 @@
+vyatta-op-quagga (0.11.34+daisy1) karmic; urgency=low
+
+  * create daisy branch
+
+ -- John Southworth <john.southworth@vyatta.com>  Sat, 13 Oct 2012 13:31:27 -0700
+
 vyatta-op-quagga (0.11.34) karmic; urgency=low
 
   * new branch
