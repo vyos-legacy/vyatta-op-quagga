@@ -1,3 +1,9 @@
+vyatta-op-quagga (0.11.34+daisy2) karmic; urgency=low
+
+  * allow optional dependency on vyatta-unicast
+
+ -- Robert Bays <robert@vyatta.com>  Sat, 01 Jun 2013 16:44:47 -0700
+
 vyatta-op-quagga (0.11.34+daisy1) karmic; urgency=low
 
   * create daisy branch
