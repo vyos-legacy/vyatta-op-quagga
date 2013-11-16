@@ -1,3 +1,9 @@
+vyatta-op-quagga (0.11.34+hydrogen1) karmic; urgency=low
+
+  * New branch
+
+ -- Daniil Baturin <daniil@baturin.org>  Sun, 17 Nov 2013 00:38:39 +0100
+
 vyatta-op-quagga (0.11.34+daisy2) karmic; urgency=low
 
   * allow optional dependency on vyatta-unicast
