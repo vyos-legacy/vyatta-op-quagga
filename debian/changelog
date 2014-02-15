@@ -1,3 +1,9 @@
+vyatta-op-quagga (0.11.34+vyos1+helium1) karmic; urgency=low
+
+  * New branch
+
+ -- Daniil Baturin <daniil@baturin.org>  Sat, 15 Feb 2014 19:55:16 +0100
+
 vyatta-op-quagga (0.11.34+hydrogen1) karmic; urgency=low
 
   * New branch
