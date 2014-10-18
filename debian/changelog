@@ -1,3 +1,9 @@
+vyatta-op-quagga (0.11.34+vyos1+helium2) karmic; urgency=low
+
+  * Bug #191: add ipv6 BGP clear soft in/out commands.
+
+ -- Daniil Baturin <daniil@baturin.org>  Sat, 18 Oct 2014 17:46:07 +0200
+
 vyatta-op-quagga (0.11.34+vyos1+helium1) karmic; urgency=low
 
   * New branch
