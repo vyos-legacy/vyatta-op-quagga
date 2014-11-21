@@ -1,3 +1,15 @@
+vyatta-op-quagga (0.11.35+vyos2+lithium1) lithium; urgency=low
+
+  * New branch
+
+ -- Daniil Baturin <daniil@baturin.org>  Fri, 21 Nov 2014 18:48:40 +0100
+
+vyatta-op-quagga (0.11.35+vyos2+lithium0) lithium; urgency=low
+
+  * New branch
+
+ -- Daniil Baturin <daniil@baturin.org>  Sat, 15 Feb 2014 19:55:16 +0100
+
 vyatta-op-quagga (0.11.34+vyos1+helium2) karmic; urgency=low
 
   * Bug #191: add ipv6 BGP clear soft in/out commands.
