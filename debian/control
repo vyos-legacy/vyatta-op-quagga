@@ -1,7 +1,7 @@
 Source: vyatta-op-quagga
 Section: contrib/net
 Priority: extra
-Maintainer: Vyatta Package Maintainers <maintainers@vyatta.com>
+Maintainer: VyOS Package Maintainers <maintainers@vyos.net>
 Build-Depends: debhelper (>= 5), autotools-dev
 Standards-Version: 3.7.2
 
@@ -10,5 +10,5 @@ Architecture: all
 Depends: vyatta-op,
  vyatta-bash | bash (>= 3.1),
  vyatta-unicast | vyatta-quagga (>= 0.99.15-26)
-Description: Vyatta operational command for the Quagga route daemons
+Description: VyOS operational command for the Quagga route daemons
  Bash command completions, help strings, and run definitions
