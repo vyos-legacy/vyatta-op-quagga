@@ -1,3 +1,9 @@
+vyatta-op-quagga (0.11.35+vyos2+lithium6) lithium; urgency=low
+
+  * vyatta-op-quagga: update dh_gencontrol with new development build flag
+
+ -- Alex Harpin <development@landsofshadow.co.uk>  Sat, 20 Jun 2015 07:03:55 +0100
+ 
 vyatta-op-quagga (0.11.35+vyos2+lithium5) lithium; urgency=low
 
   * Bug #575: add missing IPv6 BGP reset commands.
