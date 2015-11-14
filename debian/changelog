@@ -1,3 +1,10 @@
+vyatta-op-quagga (0.11.35+vyos2+lithium7) lithium; urgency=low
+
+  [ Alex Harpin ]
+  * vyatta-op-quagga: remove extraneous ipv6 bgp command nodes
+
+ -- Alex Harpin <development@landsofshadow.co.uk>  Sat, 14 Nov 2015 19:39:56 +0000
+
 vyatta-op-quagga (0.11.35+vyos2+lithium6) lithium; urgency=low
 
   * vyatta-op-quagga: update dh_gencontrol with new development build flag
