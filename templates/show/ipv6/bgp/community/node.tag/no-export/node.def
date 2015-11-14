@@ -1,2 +1,0 @@
-help: Show routes not exported to next AS
-run: vtysh -c "$*"

@@ -1,2 +1,2 @@
-help: Show BGP information for given extended attributes, extended attributes
+help: Show routes from community that exactly matches the community number
 run: vtysh -c "$*"

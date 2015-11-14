@@ -1,2 +1,0 @@
-help: Show routes not advertised to any peer
-run: vtysh -c "$*"
