@@ -7,4 +7,4 @@ allowed:
     eval "nnodes=($(cli-shell-api listActiveNodes protocols bgp $b neighbor))"
     echo -n "${nnodes[@]}" ' '
   done
-run: ${vyatta_bindir}/vtyshow.pl "show" "ip bgp neighbor $5"
+run: ${vyatta_bindir}/vtyshow.pl "show" "ip bgp ipv6 neighbor $5"

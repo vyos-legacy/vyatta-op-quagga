@@ -1,2 +1,2 @@
 help: Show routes learned from neighbor
-run: vtysh -c "$*"
+run: vtysh -c "show ip bgp ipv6 neighbors $5 routes"

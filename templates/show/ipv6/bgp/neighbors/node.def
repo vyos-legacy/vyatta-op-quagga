@@ -1,2 +1,2 @@
 help: Show detailed information on TCP and BGP neighbor connections
-run: ${vyatta_bindir}/vtyshow.pl "show" "ip bgp neighbor"
+run: ${vyatta_bindir}/vtyshow.pl "show" "ip bgp ipv6 neighbors"
