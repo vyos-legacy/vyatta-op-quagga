@@ -1,2 +1,2 @@
 help: Show routes matching the communities
-run: vtysh -c "$*"
+run: vtysh -c "show ip bgp ipv6 community $5"
