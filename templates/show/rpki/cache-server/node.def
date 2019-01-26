@@ -1,0 +1,2 @@
+help: Show RPKI cache servers information
+run: vtysh -c 'show rpki cache-server'

@@ -1,0 +1,2 @@
+help: Show RPKI cache connections
+run: vtysh -c 'show rpki cache-connection'
