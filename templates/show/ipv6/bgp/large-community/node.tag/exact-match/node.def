@@ -1,0 +1,2 @@
+help: Show routes exactly matching the large-community-list name or number
+run: vtysh -c "show ip bgp ipv6 large-community-list $5 exact-match"
