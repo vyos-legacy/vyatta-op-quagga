@@ -1,0 +1,2 @@
+help: Show specified IP large-community-list
+run: ${vyatta_bindir}/vtyshow.pl "$@"
