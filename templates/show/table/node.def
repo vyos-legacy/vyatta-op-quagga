@@ -1,2 +1,2 @@
-help: Show routing table
-run: ${vyatta_bindir}/vtyshow.pl "$@"
+help: Show routing tables
+run: vtysh -c 'show zebra router table summary'
