@@ -1,0 +1,2 @@
+help: Enable BGP policy based routing debugging
+run: vtysh -c "debug bgp pbr "

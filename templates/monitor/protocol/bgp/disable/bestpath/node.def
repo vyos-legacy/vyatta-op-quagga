@@ -1,0 +1,2 @@
+help: Disable BGP allow best path debugging
+run: vtysh -c "no debug bgp bestpath "

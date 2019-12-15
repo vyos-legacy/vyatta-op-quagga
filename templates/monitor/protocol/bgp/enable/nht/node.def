@@ -1,0 +1,2 @@
+help: Enable BGP next hop tracking debugging
+run: vtysh -c "debug bgp nht "

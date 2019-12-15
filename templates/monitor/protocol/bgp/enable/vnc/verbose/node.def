@@ -1,0 +1,2 @@
+help: Enable BGP vnc verbose logging debugging
+run: vtysh -c "debug bgp vnc verbose "

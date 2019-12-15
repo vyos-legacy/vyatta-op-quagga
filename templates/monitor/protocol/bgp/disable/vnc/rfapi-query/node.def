@@ -1,0 +1,2 @@
+help: Disable BGP vnc rfapi query debugging
+run: vtysh -c "no debug bgp vnc rfapi-query "

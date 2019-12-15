@@ -1,2 +1,0 @@
-help: Enable Border Gateway Protocol (BGP) messages debugging
-run: vtysh -c "debug bgp "

@@ -1,2 +1,0 @@
-help: Disable BGP filters debugging
-run: vtysh -c "no debug bgp filters "
