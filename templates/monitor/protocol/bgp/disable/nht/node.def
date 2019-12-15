@@ -1,0 +1,2 @@
+help: Disable BGP next hop tracking debugging
+run: vtysh -c "no debug bgp nht "

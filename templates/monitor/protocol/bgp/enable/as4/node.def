@@ -1,0 +1,2 @@
+help: Enable BGP allow AS4 actions debugging
+run: vtysh -c "debug bgp as4 "

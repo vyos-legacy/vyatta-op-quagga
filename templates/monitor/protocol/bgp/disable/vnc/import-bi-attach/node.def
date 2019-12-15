@@ -1,0 +1,2 @@
+help: Disable BGP vnc import BI attachment debugging
+run: vtysh -c "no debug bgp vnc import-bi-attach "

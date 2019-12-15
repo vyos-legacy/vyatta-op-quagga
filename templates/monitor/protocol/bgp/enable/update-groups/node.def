@@ -1,0 +1,2 @@
+help: Enable BGP update groups debugging
+run: vtysh -c "debug bgp update-groups "

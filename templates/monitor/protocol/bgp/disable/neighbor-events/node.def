@@ -1,0 +1,2 @@
+help: Disable BGP Neighbor events debugging
+run: vtysh -c "no debug bgp neighbor-events "

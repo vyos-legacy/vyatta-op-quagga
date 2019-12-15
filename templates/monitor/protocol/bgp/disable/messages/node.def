@@ -1,2 +1,0 @@
-help: Disable Border Gateway Protocol (BGP) messages debugging
-run: vtysh -c "no debug bgp "

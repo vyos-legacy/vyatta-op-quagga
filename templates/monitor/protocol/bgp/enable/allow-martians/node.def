@@ -1,0 +1,2 @@
+help: Enable BGP martians next hops debugging
+run: vtysh -c "debug bgp allow-martians "
