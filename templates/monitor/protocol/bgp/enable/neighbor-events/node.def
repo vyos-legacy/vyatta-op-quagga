@@ -1,0 +1,2 @@
+help: Enable BGP Neighbor events debugging
+run: vtysh -c "debug bgp neighbor-events "

@@ -1,0 +1,2 @@
+help: Disable BGP policy based routing debugging
+run: vtysh -c "no debug bgp pbr "

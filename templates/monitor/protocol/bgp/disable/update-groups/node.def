@@ -1,0 +1,2 @@
+help: Disable BGP update groups debugging
+run: vtysh -c "no debug bgp update-groups "

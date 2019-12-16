@@ -1,0 +1,2 @@
+help: Enable BGP vnc import/delete remote routes debugging
+run: vtysh -c "debug bgp vnc import-del-remote "

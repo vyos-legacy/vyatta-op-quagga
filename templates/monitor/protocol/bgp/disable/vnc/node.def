@@ -1,0 +1,2 @@
+help: Disable values
+run: vtysh -c "no debug all bgp vnc "

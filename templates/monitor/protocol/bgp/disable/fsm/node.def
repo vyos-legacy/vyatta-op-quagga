@@ -1,2 +1,0 @@
-help: Disable BGP fsm debugging
-run: vtysh -c "no debug bgp fsm "
