@@ -1,3 +1,0 @@
-help: Show BGP route server client information for specified IP address|network
-allowed: echo -n '<x.x.x.x>' '<x.x.x.x/x>'
-run: ${vyatta_bindir}/vtyshow.pl "$@"

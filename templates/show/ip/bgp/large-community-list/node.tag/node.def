@@ -1,3 +1,0 @@
-help: Show BGP routes matching specified large-community list
-allowed: echo -n 'AA:BB:CC'
-run: ${vyatta_bindir}/vtyshow.pl "$@"

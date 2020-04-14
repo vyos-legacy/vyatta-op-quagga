@@ -1,2 +1,0 @@
-help: Show prefixlist filter
-run: ${vyatta_bindir}/vtyshow.pl "$@"

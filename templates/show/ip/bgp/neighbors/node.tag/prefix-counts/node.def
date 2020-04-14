@@ -1,2 +1,0 @@
-help: Show detailed prefix count information for BGP neighbor
-run: ${vyatta_bindir}/vtyshow.pl "$@"

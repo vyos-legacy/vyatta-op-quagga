@@ -1,2 +1,0 @@
-help: Show BGP route flap statistics
-run: ${vyatta_bindir}/vtyshow.pl "$@"

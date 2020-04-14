@@ -1,2 +1,0 @@
-help: Show BGP routes which exactly match the specified community
-run: ${vyatta_bindir}/vtyshow.pl "$@"

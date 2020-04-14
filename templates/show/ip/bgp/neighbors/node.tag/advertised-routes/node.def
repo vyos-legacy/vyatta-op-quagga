@@ -1,2 +1,0 @@
-help: Show routes advertised to BGP neighbor
-run: ${vyatta_bindir}/vtyshow.pl "$@"

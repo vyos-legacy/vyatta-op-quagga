@@ -1,2 +1,0 @@
-help: Show detailed prefix count information
-run: ${vyatta_bindir}/vtyshow.pl "$@"
