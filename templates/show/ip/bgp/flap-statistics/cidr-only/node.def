@@ -1,2 +1,0 @@
-help: Show flap statistics for routes without natural netmasks
-run: ${vyatta_bindir}/vtyshow.pl "$@"

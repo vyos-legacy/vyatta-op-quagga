@@ -1,2 +1,0 @@
-help: Show Show BGP routes matching the specified route map
-run: ${vyatta_bindir}/vtyshow.pl "$@"

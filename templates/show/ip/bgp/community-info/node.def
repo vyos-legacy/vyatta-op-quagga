@@ -1,2 +1,0 @@
-help: Show BGP community information
-run: ${vyatta_bindir}/vtyshow.pl "$@"

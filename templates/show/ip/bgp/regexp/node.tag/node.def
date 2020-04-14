@@ -1,2 +1,0 @@
-help: Show BGP routes matching the specified AS path regular expression
-run: ${vyatta_bindir}/vtyshow.pl "$@"

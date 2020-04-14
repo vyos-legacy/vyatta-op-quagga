@@ -1,2 +1,0 @@
-help: Show BGP scan status
-run: ${vyatta_bindir}/vtyshow.pl "$@"

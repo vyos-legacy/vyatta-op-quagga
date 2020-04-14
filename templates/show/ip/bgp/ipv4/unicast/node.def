@@ -1,2 +1,0 @@
-help: Show BGP IPv4 unicast information
-run: ${vyatta_bindir}/vtyshow.pl "$@"
