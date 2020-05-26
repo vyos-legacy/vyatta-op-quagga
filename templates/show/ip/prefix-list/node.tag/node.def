@@ -1,3 +1,0 @@
-help: Show specified IP prefix-list
-allowed: echo -n '<WORD>'
-run: ${vyatta_bindir}/vtyshow.pl "$@"

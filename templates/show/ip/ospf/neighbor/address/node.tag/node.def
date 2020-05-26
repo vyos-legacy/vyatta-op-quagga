@@ -1,3 +1,0 @@
-help: Show IPv4 OSPF neighbor information for specified IP address
-allowed: echo -n '<x.x.x.x>'
-run: vtysh -c "show ip ospf neighbor $6"
