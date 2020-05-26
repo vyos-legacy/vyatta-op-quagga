@@ -1,2 +1,0 @@
-help: Tag value
-run: ${vyatta_bindir}/vtyshow.pl "$@"

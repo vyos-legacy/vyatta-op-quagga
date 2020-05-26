@@ -1,6 +1,0 @@
-help: Show IPv4 OSPF information for specified interface
-allowed: local -a array ;
-	 array=( /sys/class/net/* ) ;
-	 echo  -n ${array[@]##*/}
-run: ${vyatta_bindir}/vtyshow.pl "$@"
-

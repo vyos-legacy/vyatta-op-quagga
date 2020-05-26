@@ -1,2 +1,0 @@
-help: Show specified sequence from specified IP prefix-list
-run: ${vyatta_bindir}/vtyshow.pl "$@"

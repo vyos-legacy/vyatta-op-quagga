@@ -1,2 +1,0 @@
-help: Show summary of IP prefix-lists
-run: ${vyatta_bindir}/vtyshow.pl "$@"
