@@ -1,2 +1,0 @@
-help: Show RPKI-validated prefixes
-run: vtysh -c 'show rpki prefix-table'

@@ -1,3 +1,0 @@
-help: Show specified route-map information
-allowed: echo -n '<WORD>'
-run: ${vyatta_bindir}/vtyshow.pl "$@"
