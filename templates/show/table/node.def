@@ -1,2 +1,0 @@
-help: Show routing tables
-run: vtysh -c 'show zebra router table summary'
