@@ -1,2 +1,0 @@
-help: Clear via soft reconfig for rsclient RIB
-run: vtysh -c " clear ip bgp $4 rsclient"
