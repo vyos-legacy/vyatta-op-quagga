@@ -1,2 +1,0 @@
-help: Show summary of BGP IPv4 unicast route server client information
-run: ${vyatta_bindir}/vtyshow.pl "$@"
