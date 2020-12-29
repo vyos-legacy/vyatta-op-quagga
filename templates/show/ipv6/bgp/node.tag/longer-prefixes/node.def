@@ -1,2 +1,0 @@
-help: Show route and more specific routes
-run: vtysh -c "show ip bgp ipv6 $4 longer-prefixes"

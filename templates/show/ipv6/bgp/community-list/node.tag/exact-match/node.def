@@ -1,2 +1,0 @@
-help: Show routes exactly matching the community-list name or number
-run: vtysh -c "show ip bgp ipv6 community-list $5 exact-match"

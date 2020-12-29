@@ -1,2 +1,0 @@
-help: Show routes matching the IPv6 prefix-list name
-run: vtysh -c "show ip bgp ipv6 prefix-list $5"

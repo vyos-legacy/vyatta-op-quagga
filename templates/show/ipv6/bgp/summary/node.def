@@ -1,2 +1,0 @@
-help: Show summary of BGP neighbor status
-run: vtysh -c "show ip bgp ipv6 summary"

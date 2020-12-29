@@ -1,2 +1,0 @@
-help: Show routes matching the large-community-list number or name
-run: vtysh -c "show ip bgp ipv6 large-community-list $5"
