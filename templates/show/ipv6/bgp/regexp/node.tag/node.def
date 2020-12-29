@@ -1,2 +1,0 @@
-help: Show routes matching AS path regular expression
-run: vtysh -c "show ip bgp ipv6 regexp $5"

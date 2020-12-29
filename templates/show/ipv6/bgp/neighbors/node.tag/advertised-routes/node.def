@@ -1,2 +1,0 @@
-help: Show routes advertised to a BGP neighbor
-run: vtysh -c "show ip bgp ipv6 neighbors $5 advertised-routes"

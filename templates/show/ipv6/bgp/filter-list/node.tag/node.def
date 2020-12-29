@@ -1,2 +1,0 @@
-help: Show routes conforming to regular expression access list name
-run: vtysh -c "show ip bgp ipv6 filter-list $5"
