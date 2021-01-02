@@ -1,3 +1,0 @@
-help: Show select prefix of specified IPv6 prefix-list
-allowed: echo -n '<h:h:h:h:h:h:h:h/x>'
-run: ${vyatta_bindir}/vtyshow.pl "$@"

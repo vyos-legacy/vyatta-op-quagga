@@ -1,2 +1,0 @@
-help: Show first-match from select prefix of named IPv6 prefix-list
-run: ${vyatta_bindir}/vtyshow.pl "$@"
