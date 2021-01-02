@@ -1,3 +1,0 @@
-help: Clear prefix-list statistics or status for specified word
-allowed: echo -n '<WORD>'
-run: vtysh -c "$*"
