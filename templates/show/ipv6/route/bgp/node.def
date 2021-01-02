@@ -1,2 +1,0 @@
-help: Show IPv6 BGP routes
-run: vtysh -c "$*"

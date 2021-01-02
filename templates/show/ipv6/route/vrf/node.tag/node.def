@@ -1,5 +1,0 @@
-help: Show IPv6 routes in VRF
-allowed: local -a vals
-         eval "vals=($(cli-shell-api listActiveNodes vrf name))"
-         echo -n '<vrf>' ${vals[@]}
-run: ${vyatta_bindir}/vtyshow.pl "$@"
