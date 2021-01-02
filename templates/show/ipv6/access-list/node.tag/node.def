@@ -1,2 +1,0 @@
-help: Show specified IPv6 access-list
-run: ${vyatta_bindir}/vtyshow.pl "$@"
