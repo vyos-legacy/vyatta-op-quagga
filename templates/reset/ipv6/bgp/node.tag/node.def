@@ -1,6 +1,0 @@
-help: Clear BGP neighbor IP address
-allowed: local -a vals
-         eval "bgp_as=$(cli-shell-api listActiveNodes protocols bgp)"
-         eval "vals=($(cli-shell-api listActiveNodes protocols bgp $bgp_as neighbor))"
-         echo -n '<A.B.C.D>' '<X:X::X:X>' ${vals[@]}
-run: vtysh -c " clear bgp ipv6 $4"

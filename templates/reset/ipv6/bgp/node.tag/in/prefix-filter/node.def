@@ -1,2 +1,0 @@
-help: Clear out the existing ORF prefix-list
-run: vtysh -c " clear bgp ipv6 $4 in prefix-filter"

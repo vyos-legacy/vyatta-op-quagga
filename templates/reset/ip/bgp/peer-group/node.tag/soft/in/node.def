@@ -1,2 +1,0 @@
-help: Clear via soft reconfig of inbound update
-run: vtysh -c " clear ip bgp peer-group $5 soft in"

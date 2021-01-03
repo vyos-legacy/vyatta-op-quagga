@@ -1,2 +1,0 @@
-help: Clear out prefix-list ORF and do inbound soft reconfig
-run: vtysh -c " clear ip bgp peer-group $5 in prefix-filter"

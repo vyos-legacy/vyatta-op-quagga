@@ -1,2 +1,0 @@
-help: Clear BGP external peers via soft reconfig of inbound update
-run: vtysh -c ""

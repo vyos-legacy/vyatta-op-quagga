@@ -1,2 +1,0 @@
-help: Clear all BGP peering sessions
-run: vtysh -c "clear ip bgp *"

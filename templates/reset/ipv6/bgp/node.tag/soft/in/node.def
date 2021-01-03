@@ -1,2 +1,0 @@
-help: Clear via soft reconfig inbound update
-run: vtysh -c " clear bgp ipv6 $4 soft in"

@@ -1,2 +1,0 @@
-help: Clear via soft reconfig inbound update
-run: vtysh -c " clear ip bgp $4 ipv4 unicast in"

@@ -1,2 +1,0 @@
-help: Clear via soft reconfig
-run: vtysh -c " clear ip bgp peer-group $5 ipv4 unicast soft"
