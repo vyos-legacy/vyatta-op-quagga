@@ -1,2 +1,2 @@
 help: Clear via soft reconfig outbound update
-run: vtysh -c " clear ip bgp $4 ipv4 unicast out"
+run: vtysh -c "clear ip bgp ipv4 unicast $4 out"

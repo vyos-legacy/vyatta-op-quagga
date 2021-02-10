@@ -1,2 +1,2 @@
 help: Clear out the existing ORF prefix-list
-run: vtysh -c " clear ip bgp $4 ipv4 unicast in prefix-filter"
+run: vtysh -c "clear ip bgp ipv4 unicast $4 in prefix-filter"
